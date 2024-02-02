@@ -1,6 +1,6 @@
-if store.gold>=50*instance_number(default_tower)
+if 25*hud.towers_built
 {
-store.gold-=50*instance_number(default_tower)
+store.gold-=25*hud.towers_built
 hud.towers_built+=1
 instance_destroy()
 

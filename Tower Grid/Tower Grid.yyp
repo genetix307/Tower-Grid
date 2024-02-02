@@ -51,6 +51,7 @@
     {"id":{"name":"tower_base","path":"objects/tower_base/tower_base.yy",},"order":2,},
     {"id":{"name":"chest_gems","path":"objects/chest_gems/chest_gems.yy",},"order":2,},
     {"id":{"name":"consent_set_mode","path":"scripts/consent_set_mode/consent_set_mode.yy",},"order":5,},
+    {"id":{"name":"Sprite44","path":"sprites/Sprite44/Sprite44.yy",},"order":4,},
     {"id":{"name":"btn_statistics","path":"objects/btn_statistics/btn_statistics.yy",},"order":9,},
     {"id":{"name":"spr_smoke_temp34","path":"sprites/spr_smoke_temp34/spr_smoke_temp34.yy",},"order":2,},
     {"id":{"name":"spr_show_gold","path":"sprites/spr_show_gold/spr_show_gold.yy",},"order":15,},
