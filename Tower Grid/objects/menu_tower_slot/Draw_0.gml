@@ -14,3 +14,8 @@ if myID=2 //Machine Gun
 if store.best_stage>=10 {draw_sprite_ext(spr_turret_machinegun,0,x,y+8,1,1,0,c_white,1)}
 if store.best_stage<10 {draw_sprite_ext(spr_turret_machinegun,0,x,y+8,1,1,0,c_black,1)}
 }
+if myID=3 //Missile Launcher
+{
+if store.best_stage>=20 {draw_sprite_ext(spr_turret_missilelauncher,0,x,y+8,1,1,0,c_white,1)}
+if store.best_stage<20 {draw_sprite_ext(spr_turret_missilelauncher,0,x,y+8,1,1,0,c_black,1)}
+}

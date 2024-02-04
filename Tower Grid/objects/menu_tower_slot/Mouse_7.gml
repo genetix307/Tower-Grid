@@ -17,3 +17,12 @@ show_menu_towers.tower_reload_time=store.machinegun_reload_time
 show_menu_towers.tower_critical_chance=store.machinegun_critical_chance
 show_menu_towers.tower_knockback=store.machinegun_knockback
 }
+if myID=3 and store.best_stage>=20 {
+show_menu_towers.tower="Missile Launcher"
+show_menu_towers.tower_desc="Long ranged slow and heavy destroyer"
+show_menu_towers.tower_attack_damage=store.missilelauncher_attack_damage
+show_menu_towers.tower_attack_range=store.missilelauncher_attack_range
+show_menu_towers.tower_reload_time=store.missilelauncher_reload_time
+show_menu_towers.tower_critical_chance=store.missilelauncher_critical_chance
+show_menu_towers.tower_knockback=store.missilelauncher_knockback
+}

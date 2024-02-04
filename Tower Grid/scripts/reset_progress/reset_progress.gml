@@ -76,10 +76,15 @@ store.cannon_reload_time=60
 store.cannon_critical_chance=3
 store.cannon_knockback=10
 store.machinegun_attack_damage=1
-store.machinegun_attack_range=275
+store.machinegun_attack_range=270
 store.machinegun_reload_time=12
-store.machinegun_critical_chance=3
+store.machinegun_critical_chance=1
 store.machinegun_knockback=1.5
+store.missilelauncher_attack_damage=12
+store.missilelauncher_attack_range=450
+store.missilelauncher_reload_time=150
+store.missilelauncher_critical_chance=5
+store.missilelauncher_knockback=16
 
 //Inventory
 store.have_template=1 //ex: have_potions

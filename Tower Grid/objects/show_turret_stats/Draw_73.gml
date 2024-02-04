@@ -23,3 +23,8 @@ draw_text_color(x-177,y-52,"Critical Chance: "+string(myCriticalChance)+"%",c_wh
 draw_text_color(x-175,y-30,"Knockback: "+string(myKnockback)+"ft",c_black,c_black,c_black,c_black,1)
 draw_text_color(x-177,y-32,"Knockback: "+string(myKnockback)+"ft",c_white,c_white,c_silver,c_silver,1)
 
+//Draw Turret
+if myType="Cannon" {draw_sprite_ext(spr_turret_cannon,image_index,392,103,1,1,180,c_white,1)}
+if myType="Machine Gun" {draw_sprite_ext(spr_turret_machinegun,image_index,392,103,1,1,180,c_white,1)}
+if myType="Missile Launcher" {draw_sprite_ext(spr_turret_missilelauncher,image_index,392,103,1,1,180,c_white,1)}
+

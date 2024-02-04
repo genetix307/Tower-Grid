@@ -1,6 +1,6 @@
 maxhp=65+(store.current_stage*2)
 hp=maxhp
-range=220
+range=180
 move_speed=.55
 reload_time=100
 reload_counter=0

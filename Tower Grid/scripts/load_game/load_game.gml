@@ -118,7 +118,6 @@ store.code_lotto=ini_read_real( "save1", "code_lotto",store.code_lotto);
 
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);
-store.current_area=ini_read_string( "save1", "current_area",store.current_area);
 store.xp=ini_read_real( "save1", "xp",store.xp);
 store.next_level=ini_read_real( "save1", "next_level",store.next_level);
 store.level=ini_read_real( "save1", "level",store.level);
@@ -130,8 +129,6 @@ store.attack_speed=ini_read_real( "save1", "attack_speed",store.attack_speed);
 store.attack_damage=ini_read_real( "save1", "attack_damage",store.attack_damage);
 store.maxhp=ini_read_real( "save1", "maxhp",store.maxhp);
 store.hp=ini_read_real( "save1", "hp",store.hp);
-store.attack_buffer_cap=ini_read_real( "save1", "attack_buffer_cap",store.attack_buffer_cap);
-store.dodge_chance=ini_read_real( "save1", "dodge_chance",store.dodge_chance);
 store.regen=ini_read_real( "save1", "regen",store.regen);
 store.killgold=ini_read_real( "save1", "killgold",store.killgold);
 store.critical_chance=ini_read_real( "save1", "critical_chance",store.critical_chance);

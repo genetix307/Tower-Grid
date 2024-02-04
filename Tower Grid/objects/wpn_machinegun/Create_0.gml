@@ -5,8 +5,6 @@ move_speed=8
 
 if instance_number(default_enemy)>0 {
 direction=point_direction(x,y,instance_nearest(x,y,default_enemy).x,instance_nearest(x,y,default_enemy).y)
+direction+=random_range(-6,6)
 }
 image_angle=direction
-
-image_xscale=.5
-image_yscale=.7

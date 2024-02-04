@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "enemy_wpn_missile",
   "spriteId": {
-    "name": "spr_missile",
-    "path": "sprites/spr_missile/spr_missile.yy",
+    "name": "spr_bullet_cannon",
+    "path": "sprites/spr_bullet_cannon/spr_bullet_cannon.yy",
   },
   "solid": false,
   "visible": true,
