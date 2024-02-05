@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "set_area",
+  "name": "spawn_tower",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

@@ -15,7 +15,8 @@ if distance_to_object(tower_base)<=range and reload_counter<=0
 {
 reload_counter=reload_time
 image_angle=point_direction(x,y,tower_base.x,tower_base.y)+90
-instance_create_depth(x,y,depth,enemy_wpn_missile).attack_damage=attack_damage
+if wpn="missile" {instance_create_depth(x,y,depth,enemy_wpn_missile).attack_damage=attack_damage}
+if wpn="flamethrower" {instance_create_depth(x,y,depth,enemy_wpn_flamethrower).attack_damage=attack_damage}
 }
 }
 

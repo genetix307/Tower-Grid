@@ -29,29 +29,24 @@ store.goal_template=0
 store.lvl_template=1
 
 //Perm Stats 
-store.perm_attack_speed=1
-store.perm_attack_damage=3
 store.perm_maxhp=100
 store.perm_regen=0
 store.perm_killgold=1
-store.perm_critical_chance=0
+store.perm_startgold=0
 store.perm_critical_multiplier=1.25
 store.perm_defense=0
 store.perm_lifesteal_chance=0
 store.perm_lifesteal_amount=1
 store.perm_luck=0
-/*
+
 //Perm Upgrades
-store.cost_perm_attack_damage=5
-store.lvl_perm_attack_damage=1
-store.cost_perm_attack_speed=5
-store.lvl_perm_attack_speed=1
 store.cost_perm_max_health=5
 store.lvl_perm_max_health=1
+store.cost_perm_startgold=5
+store.lvl_perm_startgold=1
+/*
 store.cost_perm_defense=5
 store.lvl_perm_defense=1
-store.cost_perm_critical_chance=5
-store.lvl_perm_critical_chance=1
 store.cost_perm_critical_multiplier=5
 store.lvl_perm_critical_multiplier=1
 store.cost_perm_regen=5
@@ -66,9 +61,10 @@ store.cost_perm_killgold=5
 store.lvl_perm_killgold=1
 store.cost_perm_luck=5
 store.lvl_perm_luck=1
+*/
 store.cost_perm_gamespeed=5
 store.lvl_perm_gamespeed=1
-*/
+
 //Tower Base Stats
 store.cannon_attack_damage=5
 store.cannon_attack_range=300
@@ -85,6 +81,11 @@ store.missilelauncher_attack_range=450
 store.missilelauncher_reload_time=150
 store.missilelauncher_critical_chance=5
 store.missilelauncher_knockback=16
+store.quadgun_attack_damage=2
+store.quadgun_attack_range=280
+store.quadgun_reload_time=55
+store.quadgun_critical_chance=1
+store.quadgun_knockback=2
 
 //Inventory
 store.have_template=1 //ex: have_potions

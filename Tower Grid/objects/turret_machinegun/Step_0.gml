@@ -8,7 +8,7 @@ if reload_counter<=0 and instance_number(default_enemy)>0
 {
 if distance_to_object(instance_nearest(x,y,default_enemy))<=attack_range {
 instance_create_depth(x,y,1,wpn_machinegun)	
-reload_counter=reload_time
+reload_counter+=reload_time
 image_angle=point_direction(x,y,instance_nearest(x,y,default_enemy).x,instance_nearest(x,y,default_enemy).y)-90
 }
 }

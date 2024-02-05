@@ -6,7 +6,7 @@ reload_time=80
 reload_counter=0
 attack_damage=1.5
 boss=0
-
+wpn="missile"
 enemy_create()
 
 
