@@ -53,3 +53,14 @@ show_menu_towers.tower_critical_chance=string(store.freezeray_critical_chance)+"
 show_menu_towers.tower_knockback=string(store.freezeray_knockback)+"ft"
 show_menu_towers.tower_ability=store.freezeray_ability
 }
+
+if myID=6 and store.best_stage>=50 {
+show_menu_towers.tower="Toxic Cannon"
+show_menu_towers.tower_desc="Cannon that leaves radiated pools"
+show_menu_towers.tower_attack_damage=store.toxiccannon_attack_damage
+show_menu_towers.tower_attack_range=string(store.toxiccannon_attack_range)+"ft"
+show_menu_towers.tower_reload_time=string(store.toxiccannon_reload_time/60)+"s"
+show_menu_towers.tower_critical_chance=string(store.toxiccannon_critical_chance)+"%"
+show_menu_towers.tower_knockback=string(store.toxiccannon_knockback)+"ft"
+show_menu_towers.tower_ability=store.toxiccannon_ability
+}

@@ -29,3 +29,8 @@ if myID=5 //Freeze Ray
 if store.best_stage>=40 {draw_sprite_ext(spr_turret_freezeray,0,x,y+8,1,1,0,c_white,1)}
 if store.best_stage<40 {draw_sprite_ext(spr_turret_freezeray,0,x,y+8,1,1,0,c_black,1) draw_text_color(x-30,y-18," Reach\nWave40",c_yellow,c_yellow,c_yellow,c_yellow,1)}
 }
+if myID=6 //Toxic Cannon
+{
+if store.best_stage>=50 {draw_sprite_ext(spr_turret_toxiccannon,0,x,y+8,1,1,0,c_white,1)}
+if store.best_stage<50 {draw_sprite_ext(spr_turret_toxiccannon,0,x,y+8,1,1,0,c_black,1) draw_text_color(x-30,y-18," Reach\nWave50",c_yellow,c_yellow,c_yellow,c_yellow,1)}
+}

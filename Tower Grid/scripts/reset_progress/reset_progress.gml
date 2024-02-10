@@ -67,7 +67,6 @@ store.lvl_perm_defense=1
 store.cost_perm_luck=10
 store.lvl_perm_luck=1
 
-
 //Tower Base Stats
 store.cannon_attack_damage=5
 store.cannon_attack_range=300
@@ -104,6 +103,12 @@ store.freezeray_critical_chance=1
 store.freezeray_knockback=1
 store.freezeray_ability="Freeze"
 
+store.toxiccannon_attack_damage=3
+store.toxiccannon_attack_range=350
+store.toxiccannon_reload_time=120
+store.toxiccannon_critical_chance=1
+store.toxiccannon_knockback=2
+store.toxiccannon_ability="Radiate"
 //Inventory
 store.have_template=1 //ex: have_potions
 

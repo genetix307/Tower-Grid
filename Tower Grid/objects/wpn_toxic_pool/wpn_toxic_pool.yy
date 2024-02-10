@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "menu_tower_slot",
+  "name": "wpn_toxic_pool",
   "spriteId": {
-    "name": "spr_btn_boxby80",
-    "path": "sprites/spr_btn_boxby80/spr_btn_boxby80.yy",
+    "name": "spr_toxic_pool",
+    "path": "sprites/spr_toxic_pool/spr_toxic_pool.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,15 +26,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_enemy","path":"objects/default_enemy/default_enemy.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":53,"eventType":6,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Objects/Menu/Misc.yy",
+    "name": "Weapons",
+    "path": "folders/Objects/Environment/Towers/Weapons.yy",
   },
 }
