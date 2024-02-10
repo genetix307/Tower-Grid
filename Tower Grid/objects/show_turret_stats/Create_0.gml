@@ -10,3 +10,4 @@ myAttackRange=0
 myReloadTime=0
 myCriticalChance=0
 myKnockback=0
+myAbility=0

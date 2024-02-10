@@ -8,3 +8,4 @@ direction=point_direction(x,y,instance_nearest(x,y,default_enemy).x,instance_nea
 direction+=random_range(-6,6)
 }
 image_angle=direction
+alarm[1]=3

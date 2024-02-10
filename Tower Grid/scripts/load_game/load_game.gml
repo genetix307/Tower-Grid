@@ -20,48 +20,46 @@ store.challenge_a=ini_read_real( "save1", "challenge_a",store.challenge_a);
 store.challenge_b=ini_read_real( "save1", "challenge_b",store.challenge_b);
 store.challenge_c=ini_read_real( "save1", "challenge_c",store.challenge_c);
 store.challenge_flag=ini_read_real( "save1", "challenge_flag",store.challenge_flag);
-store.goal_template=ini_read_real( "save1", "goal_template",store.goal_template);
-store.lvl_template=ini_read_real( "save1", "lvl_template",store.lvl_template);
+store.goal_mechanic=ini_read_real( "save1", "goal_mechanic",store.goal_mechanic);
+store.lvl_mechanic=ini_read_real( "save1", "lvl_mechanic",store.lvl_mechanic);
+store.goal_brickroad=ini_read_real( "save1", "goal_brickroad",store.goal_brickroad);
+store.lvl_brickroad=ini_read_real( "save1", "lvl_brickroad",store.lvl_brickroad);
+store.goal_bossslayer=ini_read_real( "save1", "goal_bossslayer",store.goal_bossslayer);
+store.lvl_bossslayer=ini_read_real( "save1", "lvl_bossslayer",store.lvl_bossslayer);
+store.goal_survivor=ini_read_real( "save1", "goal_survivor",store.goal_survivor);
+store.lvl_survivor=ini_read_real( "save1", "lvl_survivor",store.lvl_survivor);
+store.goal_builder=ini_read_real( "save1", "goal_builder",store.goal_builder);
+store.lvl_builder=ini_read_real( "save1", "lvl_builder",store.lvl_builder);
+store.goal_mandown=ini_read_real( "save1", "goal_mandown",store.goal_mandown);
+store.lvl_mandown=ini_read_real( "save1", "lvl_mandown",store.lvl_mandown);
 //Perm Stats
 store.perm_maxhp=ini_read_real( "save1", "perm_maxhp",store.perm_maxhp);
 store.perm_startgold=ini_read_real( "save1", "perm_startgold",store.perm_startgold);
-/*
-store.perm_regen=ini_read_real( "save1", "perm_regen",store.perm_regen);
-store.perm_killgold=ini_read_real( "save1", "perm_killgold",store.perm_killgold);
+store.perm_wavegold=ini_read_real( "save1", "perm_wavegold",store.perm_wavegold);
+store.perm_wavegems=ini_read_real( "save1", "perm_wavegems",store.perm_wavegems);
 store.perm_critical_multiplier=ini_read_real( "save1", "perm_critical_multiplier",store.perm_critical_multiplier);
 store.perm_defense=ini_read_real( "save1", "perm_defense",store.perm_defense);
-store.perm_lifesteal_chance=ini_read_real( "save1", "perm_lifesteal_chance",store.perm_lifesteal_chance);
-store.perm_lifesteal_amount=ini_read_real( "save1", "perm_lifesteal_amount",store.perm_lifesteal_amount);
 store.perm_luck=ini_read_real( "save1", "perm_luck",store.perm_luck);
-*/
+
 //Perm 
 store.gems=ini_read_real( "save1", "gems",store.gems);
+store.scraps=ini_read_real( "save1", "scraps",store.scraps);
 store.max_gamespeed=ini_read_real( "save1", "max_gamespeed",store.max_gamespeed);
 //Perm Upgrades
 store.cost_perm_max_health=ini_read_real( "save1", "cost_perm_max_health",store.cost_perm_max_health);
 store.lvl_perm_max_health=ini_read_real( "save1", "lvl_perm_max_health",store.lvl_perm_max_health);
 store.cost_perm_startgold=ini_read_real( "save1", "cost_perm_startgold",store.cost_perm_startgold);
 store.lvl_perm_startgold=ini_read_real( "save1", "lvl_perm_startgold",store.lvl_perm_startgold);
-/*
-store.cost_perm_defense=ini_read_real( "save1", "cost_perm_defense",store.cost_perm_defense);
-store.lvl_perm_defense=ini_read_real( "save1", "lvl_perm_defense",store.lvl_perm_defense);
-store.cost_perm_critical_chance=ini_read_real( "save1", "cost_perm_critical_chance",store.cost_perm_critical_chance);
-store.lvl_perm_critical_chance=ini_read_real( "save1", "lvl_perm_critical_chance",store.lvl_perm_critical_chance);
+store.cost_perm_wavegold=ini_read_real( "save1", "cost_perm_wavegold",store.cost_perm_wavegold);
+store.lvl_perm_wavegold=ini_read_real( "save1", "lvl_perm_wavegold",store.lvl_perm_wavegold);
+store.cost_perm_wavegems=ini_read_real( "save1", "cost_perm_wavegems",store.cost_perm_wavegems);
+store.lvl_perm_wavegems=ini_read_real( "save1", "lvl_perm_wavegems",store.lvl_perm_wavegems);
 store.cost_perm_critical_multiplier=ini_read_real( "save1", "cost_perm_critical_multiplier",store.cost_perm_critical_multiplier);
 store.lvl_perm_critical_multiplier=ini_read_real( "save1", "lvl_perm_critical_multiplier",store.lvl_perm_critical_multiplier);
-store.cost_perm_regen=ini_read_real( "save1", "cost_perm_regen",store.cost_perm_regen);
-store.lvl_perm_regen=ini_read_real( "save1", "lvl_perm_regen",store.lvl_perm_regen);
-store.cost_perm_dodge=ini_read_real( "save1", "cost_perm_dodge",store.cost_perm_dodge);
-store.lvl_perm_dodge=ini_read_real( "save1", "lvl_perm_dodge",store.lvl_perm_dodge);
-store.cost_perm_lifesteal_chance=ini_read_real( "save1", "cost_perm_lifesteal_chance",store.cost_perm_lifesteal_chance);
-store.lvl_perm_lifesteal_chance=ini_read_real( "save1", "lvl_perm_lifesteal_chance",store.lvl_perm_lifesteal_chance);
-store.cost_perm_lifesteal_amount=ini_read_real( "save1", "cost_perm_lifesteal_amount",store.cost_perm_lifesteal_amount);
-store.lvl_perm_lifesteal_amount=ini_read_real( "save1", "lvl_perm_lifesteal_amount",store.lvl_perm_lifesteal_amount);
-store.cost_perm_killgold=ini_read_real( "save1", "cost_perm_killgold",store.cost_perm_killgold);
-store.lvl_perm_killgold=ini_read_real( "save1", "lvl_perm_killgold",store.lvl_perm_killgold);
+store.cost_perm_defense=ini_read_real( "save1", "cost_perm_defense",store.cost_perm_defense);
+store.lvl_perm_defense=ini_read_real( "save1", "lvl_perm_defense",store.lvl_perm_defense);
 store.cost_perm_luck=ini_read_real( "save1", "cost_perm_luck",store.cost_perm_luck);
 store.lvl_perm_luck=ini_read_real( "save1", "lvl_perm_luck",store.lvl_perm_luck);
-*/
 store.cost_perm_gamespeed=ini_read_real( "save1", "cost_perm_gamespeed",store.cost_perm_gamespeed);
 store.lvl_perm_gamespeed=ini_read_real( "save1", "lvl_perm_gamespeed",store.lvl_perm_gamespeed);
 
@@ -105,14 +103,14 @@ store.enemies_slain=ini_read_real( "save1", "enemies_slain",store.enemies_slain)
 store.bosses_slain=ini_read_real( "save1", "bosses_slain",store.bosses_slain);
 store.gems_earned=ini_read_real( "save1", "gems_earned",store.gems_earned);
 store.gold_earned=ini_read_real( "save1", "gold_earned",store.gold_earned);
-//store.total_upgrades=ini_read_real( "save1", "total_upgrades",store.total_upgrades);
+store.towers_built=ini_read_real( "save1", "towers_built",store.towers_built);
+store.towers_upgraded=ini_read_real( "save1", "towers_upgraded",store.towers_upgraded);
 store.challenges_completed=ini_read_real( "save1", "challenges_completed",store.challenges_completed);
 //Bonus Codes
 store.code_payday=ini_read_real( "save1", "code_payday",store.code_payday);
 store.code_kickstart=ini_read_real( "save1", "code_kickstart",store.code_kickstart);
 store.code_lotto=ini_read_real( "save1", "code_lotto",store.code_lotto);
 //Ingame Stats
-
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);
 store.xp=ini_read_real( "save1", "xp",store.xp);
@@ -124,38 +122,15 @@ store.enemies_killed_run=ini_read_real( "save1", "enemies_killed_run",store.enem
 store.gems_earned_run=ini_read_real( "save1", "gems_earned_run",store.gems_earned_run);
 store.maxhp=ini_read_real( "save1", "maxhp",store.maxhp);
 store.hp=ini_read_real( "save1", "hp",store.hp);
-store.regen=ini_read_real( "save1", "regen",store.regen);
 store.killgold=ini_read_real( "save1", "killgold",store.killgold);
+store.perm_wavegold=ini_read_real( "save1", "perm_wavegold",store.perm_wavegold);
 store.perm_startgold=ini_read_real( "save1", "perm_startgold",store.perm_startgold);
 store.critical_multiplier=ini_read_real( "save1", "critical_multiplier",store.critical_multiplier);
 store.defense=ini_read_real( "save1", "defense",store.defense);
-store.lifesteal_chance=ini_read_real( "save1", "lifesteal_chance",store.lifesteal_chance);
-store.lifesteal_amount=ini_read_real( "save1", "lifesteal_amount",store.lifesteal_amount);
 store.luck=ini_read_real( "save1", "luck",store.luck);
 
 //In game Status Effects
 store.active_template=ini_read_real( "save1", "active_template",store.active_template);
-//InGame Upgrades
-/*
-store.cost_max_health=ini_read_real( "save1", "cost_max_health",store.cost_max_health);
-store.lvl_max_health=ini_read_real( "save1", "lvl_max_health",store.lvl_max_health);
-store.cost_defense=ini_read_real( "save1", "cost_defense",store.cost_defense);
-store.lvl_defense=ini_read_real( "save1", "lvl_defense",store.lvl_defense);
-store.cost_critical_chance=ini_read_real( "save1", "cost_critical_chance",store.cost_critical_chance);
-store.lvl_critical_chance=ini_read_real( "save1", "lvl_critical_chance",store.lvl_critical_chance);
-store.cost_critical_multiplier=ini_read_real( "save1", "cost_critical_multiplier",store.cost_critical_multiplier);
-store.lvl_critical_multiplier=ini_read_real( "save1", "lvl_critical_multiplier",store.lvl_critical_multiplier);
-store.cost_regen=ini_read_real( "save1", "cost_regen",store.cost_regen);
-store.lvl_regen=ini_read_real( "save1", "lvl_regen",store.lvl_regen);
-store.cost_lifesteal_chance=ini_read_real( "save1", "cost_lifesteal_chance",store.cost_lifesteal_chance);
-store.lvl_lifesteal_chance=ini_read_real( "save1", "lvl_lifesteal_chance",store.lvl_lifesteal_chance);
-store.cost_lifesteal_amount=ini_read_real( "save1", "cost_lifesteal_amount",store.cost_lifesteal_amount);
-store.lvl_lifesteal_amount=ini_read_real( "save1", "lvl_lifesteal_amount",store.lvl_lifesteal_amount);
-store.cost_killgold=ini_read_real( "save1", "cost_killgold",store.cost_killgold);
-store.lvl_killgold=ini_read_real( "save1", "lvl_killgold",store.lvl_killgold);
-store.cost_luck=ini_read_real( "save1", "cost_luck",store.cost_luck);
-store.lvl_luck=ini_read_real( "save1", "lvl_luck",store.lvl_luck);
-*/
 //Ingame Perks
 store.perk_lvl_template=ini_read_real( "save1", "perk_lvl_template",store.perk_lvl_template);
 //Misc

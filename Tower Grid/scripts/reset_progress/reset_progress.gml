@@ -6,6 +6,7 @@ store.ads_watched=0
 //store.gem_chest_cooldown=0
 store.show_rating=0
 store.gems=0
+store.scraps=0
 
 //Game Settings
 store.color_scheme=0
@@ -25,67 +26,83 @@ store.challenge_a=0
 store.challenge_b=2
 store.challenge_c=5
 store.challenge_flag=0
-store.goal_template=0
-store.lvl_template=1
+store.goal_mechanic=0
+store.lvl_mechanic=1
+store.goal_brickroad=0
+store.lvl_brickroad=1
+store.goal_bossslayer=0
+store.lvl_bossslayer=1
+store.goal_survivor=0
+store.lvl_survivor=1
+store.goal_builder=0
+store.lvl_builder=1
+store.goal_mandown=0
+store.lvl_mandown=1
 
 //Perm Stats 
 store.perm_maxhp=100
-store.perm_regen=0
 store.perm_killgold=1
 store.perm_startgold=0
-store.perm_critical_multiplier=1.25
+store.perm_wavegold=0
+store.perm_wavegems=5
+store.perm_critical_multiplier=1.50
 store.perm_defense=0
-store.perm_lifesteal_chance=0
-store.perm_lifesteal_amount=1
 store.perm_luck=0
 
 //Perm Upgrades
-store.cost_perm_max_health=5
+store.cost_perm_max_health=10
 store.lvl_perm_max_health=1
-store.cost_perm_startgold=5
+store.cost_perm_startgold=10
 store.lvl_perm_startgold=1
-/*
-store.cost_perm_defense=5
-store.lvl_perm_defense=1
-store.cost_perm_critical_multiplier=5
-store.lvl_perm_critical_multiplier=1
-store.cost_perm_regen=5
-store.lvl_perm_regen=1
-store.cost_perm_dodge=5
-store.lvl_perm_dodge=1
-store.cost_perm_lifesteal_chance=5
-store.lvl_perm_lifesteal_chance=1
-store.cost_perm_lifesteal_amount=5
-store.lvl_perm_lifesteal_amount=1
-store.cost_perm_killgold=5
-store.lvl_perm_killgold=1
-store.cost_perm_luck=5
-store.lvl_perm_luck=1
-*/
-store.cost_perm_gamespeed=5
+store.cost_perm_wavegold=10
+store.lvl_perm_wavegold=1
+store.cost_perm_wavegems=100
+store.lvl_perm_wavegems=1
+store.cost_perm_gamespeed=10
 store.lvl_perm_gamespeed=1
+store.cost_perm_critical_multiplier=10
+store.lvl_perm_critical_multiplier=1
+store.cost_perm_defense=10
+store.lvl_perm_defense=1
+store.cost_perm_luck=10
+store.lvl_perm_luck=1
+
 
 //Tower Base Stats
 store.cannon_attack_damage=5
 store.cannon_attack_range=300
 store.cannon_reload_time=60
 store.cannon_critical_chance=3
-store.cannon_knockback=10
+store.cannon_knockback=12
+store.cannon_ability="None"
+
 store.machinegun_attack_damage=1
-store.machinegun_attack_range=270
+store.machinegun_attack_range=275
 store.machinegun_reload_time=12
-store.machinegun_critical_chance=1
+store.machinegun_critical_chance=2
 store.machinegun_knockback=1.5
+store.machinegun_ability="None"
+
 store.missilelauncher_attack_damage=12
 store.missilelauncher_attack_range=450
-store.missilelauncher_reload_time=150
+store.missilelauncher_reload_time=160
 store.missilelauncher_critical_chance=5
-store.missilelauncher_knockback=16
+store.missilelauncher_knockback=20
+store.missilelauncher_ability="None"
+
 store.quadgun_attack_damage=2
 store.quadgun_attack_range=280
-store.quadgun_reload_time=55
+store.quadgun_reload_time=75
 store.quadgun_critical_chance=1
-store.quadgun_knockback=2
+store.quadgun_knockback=4
+store.quadgun_ability="None"
+
+store.freezeray_attack_damage=3
+store.freezeray_attack_range=320
+store.freezeray_reload_time=100
+store.freezeray_critical_chance=1
+store.freezeray_knockback=1
+store.freezeray_ability="Freeze"
 
 //Inventory
 store.have_template=1 //ex: have_potions
@@ -128,8 +145,9 @@ store.enemies_slain=0
 store.bosses_slain=0
 store.gems_earned=0
 store.gold_earned=0
-//store.total_upgrades=0
 store.challenges_completed=0
+store.towers_built=0
+store.towers_upgraded=0
 
 //Bonus Codes
 store.code_payday=0

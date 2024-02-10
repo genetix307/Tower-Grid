@@ -6,6 +6,7 @@ reload_time=store.missilelauncher_reload_time
 attack_damage=store.missilelauncher_attack_damage
 attack_range=store.missilelauncher_attack_range
 knockback=store.missilelauncher_knockback
+ability=store.missilelauncher_ability
 critical_chance=store.missilelauncher_critical_chance
 cost=10
 

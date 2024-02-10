@@ -9,6 +9,7 @@ show_status.myAttackRange=attack_range
 show_status.myReloadTime=reload_time
 show_status.myCriticalChance=critical_chance
 show_status.myKnockback=knockback
+show_status.myAbility=ability
 
 instance_create_depth(322,380,depth-110,btn_tower_upgrade).cost=cost
 instance_create_depth(157,380,depth-110,btn_tower_sell).sell_value=level*25

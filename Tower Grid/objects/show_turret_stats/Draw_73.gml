@@ -23,4 +23,7 @@ draw_text_color(x-177,y-52,"Critical Chance: "+string(myCriticalChance)+"%",c_wh
 draw_text_color(x-175,y-30,"Knockback: "+string(myKnockback)+"ft",c_black,c_black,c_black,c_black,1)
 draw_text_color(x-177,y-32,"Knockback: "+string(myKnockback)+"ft",c_white,c_white,c_silver,c_silver,1)
 
+draw_text_color(x-175,y-10,"Ability: "+myAbility,c_black,c_black,c_black,c_black,1)
+draw_text_color(x-177,y-12,"Ability: "+myAbility,c_white,c_white,c_silver,c_silver,1)
+
 draw_stats_turret()

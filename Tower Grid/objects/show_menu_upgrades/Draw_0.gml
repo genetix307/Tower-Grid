@@ -1,15 +1,11 @@
 draw_set_font(font_large_hud)
 draw_text_color(168,8,"Upgrades",c_white,c_white,c_silver,c_silver,1)
 
+//Show Gems
+draw_set_color(c_white)
 draw_set_font(font_med_hud)
-//draw_text_color(118,140,"Best Stage: "+string(store.best_stage),c_white,c_white,c_silver,c_silver,1)
-//draw_text_color(118,170,"Total Runs: "+string(store.total_runs),c_white,c_white,c_silver,c_silver,1)
-//draw_text_color(118,200,"Enemies Slain: "+string(store.enemies_slain),c_white,c_white,c_silver,c_silver,1)
-//draw_text_color(118,230,"Bosses Slain: "+string(store.bosses_slain),c_white,c_white,c_silver,c_silver,1)
-//draw_text_color(118,260,"Gems Earned: "+string(store.gems_earned),c_white,c_white,c_silver,c_silver,1)
-//draw_text_color(118,290,"Gold Earned: "+string(store.gold_earned),c_white,c_white,c_silver,c_silver,1)
-//draw_text_color(118,320,"Total Upgrades: "+string(store.total_upgrades),c_white,c_white,c_silver,c_silver,1)
-//draw_text_color(118,350,"Challenges Completed: "+string(store.challenges_completed),c_white,c_white,c_silver,c_silver,1)
+draw_text(216,883,string(store.gems))
+draw_sprite(spr_show_gem,0,202,891)
 
 
 

@@ -5,3 +5,4 @@ tower_attack_range=""
 tower_reload_time=""
 tower_critical_chance=0
 tower_knockback=""
+tower_ability=""

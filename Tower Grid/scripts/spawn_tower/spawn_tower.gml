@@ -1,9 +1,10 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function spawn_tower(){
-if store.best_stage>=10 and 25>random(100) {instance_create_depth(x,y,depth-110,turret_machinegun) exit}
-if store.best_stage>=20 and 50>random(100) {instance_create_depth(x,y,depth-110,turret_missilelauncher) exit}
-if store.best_stage>=30 and 75>random(100) {instance_create_depth(x,y,depth-110,turret_quadgun) exit}
-instance_create_depth(x,y,depth-110,turret_cannon)
+spawn=turret_cannon
+if store.best_stage>=10 {spawn=choose(turret_cannon,turret_machinegun)}
+if store.best_stage>=20 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher)}
+if store.best_stage>=30 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun)}
+if store.best_stage>=40 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray)}
+
+instance_create_depth(x,y,depth-110,spawn)
 
 }

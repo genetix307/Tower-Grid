@@ -7,6 +7,7 @@ reload_counter=0
 attack_damage=1
 boss=0
 wpn="missile"
+no_drop=0
 enemy_create()
 
 

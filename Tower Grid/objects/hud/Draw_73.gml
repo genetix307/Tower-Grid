@@ -16,7 +16,7 @@ draw_set_color(c_white)
 draw_text(cx+10,cy+48,"Wave "+string(store.current_stage))
 
 //Draw next tower cost
-if instance_number(default_tower)<6 {draw_text_color(cx+4,cy+945,"Next Tower Cost x"+string(25*hud.towers_built),c_white,c_white,c_silver,c_silver,.9)}
+if instance_number(default_tower)<6 {draw_text_color(cx+7,cy+942,"Next Tower Cost x"+string(25*hud.towers_built),c_white,c_white,c_silver,c_silver,.9)}
 
 //Draw Current Stage Banner
 /*
@@ -78,7 +78,7 @@ else {
 draw_set_color(c_black)
 draw_text(cx+145,cy+10,string(floor(store.gems/1000))+"K")              
 draw_set_color(c_yellow)
-draw_text(cx+143,cy+458,string(floor(store.gems/1000))+"K")    
+draw_text(cx+143,cy+8,string(floor(store.gems/1000))+"K")    
 }
 //Draw Enemies Slain
 draw_set_font(font_stats)
@@ -140,7 +140,7 @@ if game_over = 1 {
 	draw_text_color(cx+162,cy+359,"Bonus Gems: "+string(store.gems_earned_run),c_yellow,c_yellow,c_yellow,c_orange,1)
 	//Show Gems bonuses
 	if store.current_stage>1 {
-	draw_text_color(cx+316,cy+254,"+"+string(round(store.current_stage*5))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+254,"+"+string(round(store.current_stage*store.perm_wavegems))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+279,"+"+string(round(store.level*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+304,"+"+string(ceil(store.enemies_killed_run))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	}

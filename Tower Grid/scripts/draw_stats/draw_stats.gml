@@ -33,9 +33,9 @@ draw_rectangle_colour(cx+8,cy+28,cx+((store.hp/store.maxhp)*150)+9,cy+46,c_red,c
 draw_set_alpha(.95)
 draw_set_color(c_black)
 draw_text(cx+15,cy+31,"HP")
-draw_text(cx+41,cy+31,string(round(store.hp))+" / "+string(round(store.maxhp)))               
+draw_text(cx+41,cy+31,string(ceil(store.hp))+" / "+string(ceil(store.maxhp)))               
 draw_set_color(c_white)
 draw_text(cx+12,cy+30,"HP")
-draw_text(cx+39,cy+30,string(round(store.hp))+" / "+string(round(store.maxhp)))       
+draw_text(cx+39,cy+30,string(ceil(store.hp))+" / "+string(ceil(store.maxhp)))       
 //draw_sprite(spr_stat_cap,0,cx+7,cy+466)
 }

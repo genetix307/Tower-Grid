@@ -16,6 +16,11 @@ alarm[0]=240 //Show tutorial
 repeat (70+random(50)) instance_create_depth(x,y,depth,trees)
 instance_create_depth(x,y,depth,wave_gen)
 
+//Start the music
+audio_stop_all()
+bgm_to_play=choose(bgm_main_a,bgm_main_b,bgm_main_c)
+audio_play_sound(bgm_to_play,1,true)
+
 //Status Boosts
 //template_boost=0
 
