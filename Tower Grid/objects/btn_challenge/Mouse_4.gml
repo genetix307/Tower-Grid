@@ -11,6 +11,7 @@ if my_id =2 {store.goal_bossslayer=0 store.lvl_bossslayer+=1}
 if my_id =3 {store.goal_survivor=0 store.lvl_survivor+=1} 
 if my_id =4 {store.goal_builder=0 store.lvl_builder+=1} 
 if my_id =5 {store.goal_mandown=0 store.lvl_mandown+=1} 
+if my_id =6 {store.goal_headshotking=0 store.lvl_headshotking+=1} 
 
 store.challenges_completed +=1
 save_game()

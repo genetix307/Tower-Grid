@@ -23,8 +23,8 @@ store.effects=1
 
 //Challenges
 store.challenge_a=0
-store.challenge_b=2
-store.challenge_c=5
+store.challenge_b=3
+store.challenge_c=4
 store.challenge_flag=0
 store.goal_mechanic=0
 store.lvl_mechanic=1
@@ -38,10 +38,11 @@ store.goal_builder=0
 store.lvl_builder=1
 store.goal_mandown=0
 store.lvl_mandown=1
+store.goal_headshotking=0
+store.lvl_headshotking=1
 
 //Perm Stats 
 store.perm_maxhp=100
-store.perm_killgold=1
 store.perm_startgold=0
 store.perm_wavegold=0
 store.perm_wavegems=5

@@ -21,6 +21,13 @@ audio_stop_all()
 bgm_to_play=choose(bgm_main_a,bgm_main_b,bgm_main_c)
 audio_play_sound(bgm_to_play,1,true)
 
+//Change Background
+if store.best_stage>1 {
+layer_bg=layer_get_id("Background")
+bg_id=layer_background_get_id(layer_bg)
+layer_background_change(bg_id,choose(spr_floor_grass,spr_floor_grass_dark,spr_floor_desert))
+}
+
 //Status Boosts
 //template_boost=0
 

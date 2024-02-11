@@ -11,7 +11,6 @@ store.enemies_killed_run=0
 store.gems_earned_run=0
 store.maxhp=store.perm_maxhp
 store.hp=store.maxhp
-store.killgold=store.perm_killgold
 store.critical_multiplier=store.perm_critical_multiplier
 store.defense=store.perm_defense
 store.luck=store.perm_luck

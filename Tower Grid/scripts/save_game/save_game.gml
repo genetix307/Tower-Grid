@@ -34,6 +34,8 @@ ini_write_real( "save1", "goal_builder", store.goal_builder);
 ini_write_real( "save1", "lvl_builder", store.lvl_builder);
 ini_write_real( "save1", "goal_mandown", store.goal_mandown);
 ini_write_real( "save1", "lvl_mandown", store.lvl_mandown);
+ini_write_real( "save1", "goal_headshotking", store.goal_headshotking);
+ini_write_real( "save1", "lvl_headshotking", store.lvl_headshotking);
 //Perm Stats
 ini_write_real( "save1", "perm_maxhp", store.perm_maxhp);
 ini_write_real( "save1", "perm_startgold", store.perm_startgold);
@@ -126,7 +128,6 @@ ini_write_real( "save1", "enemies_killed_run", store.enemies_killed_run);
 ini_write_real( "save1", "gems_earned_run", store.gems_earned_run);
 ini_write_real( "save1", "maxhp", store.maxhp);
 ini_write_real( "save1", "hp", store.hp);
-ini_write_real( "save1", "killgold", store.killgold);
 ini_write_real( "save1", "critical_multiplier", store.critical_multiplier);
 ini_write_real( "save1", "defense", store.defense);
 ini_write_real( "save1", "luck", store.luck);

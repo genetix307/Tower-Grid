@@ -8,6 +8,7 @@ attack_damage=0
 boss=0
 wpn="transport"
 no_drop=0
+flying=0
 enemy_create()
 
 

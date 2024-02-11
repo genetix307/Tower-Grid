@@ -8,6 +8,7 @@ attack_damage=.1
 boss=1
 wpn="laserblast"
 no_drop=0
+flying=0
 enemy_create()
 
 

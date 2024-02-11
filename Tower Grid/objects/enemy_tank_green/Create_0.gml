@@ -8,6 +8,7 @@ attack_damage=2
 boss=0
 wpn="missile"
 no_drop=0
+flying=0
 enemy_create()
 
 

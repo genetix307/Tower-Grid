@@ -6,7 +6,8 @@ draw_text_color(118,150,"Created by Pj Chavez",c_white,c_white,c_silver,c_silver
 draw_text_color(118,180,"Pixel Art by Nido",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,210,"Pixel Art by Katie Wright",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,240,"Music by World Music OFCL",c_white,c_white,c_silver,c_silver,1)
-draw_text_color(118,270,"Music by Stefano Necchi",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,270,"Music by Cold Cinema",c_white,c_white,c_silver,c_silver,1)
+draw_text_color(118,300,"Music by Jonny Easton",c_white,c_white,c_silver,c_silver,1)
 draw_text_color(118,350,"Special thanks to Discord Community",c_white,c_white,c_silver,c_silver,1)
 
 

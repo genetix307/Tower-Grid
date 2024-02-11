@@ -32,6 +32,8 @@ store.goal_builder=ini_read_real( "save1", "goal_builder",store.goal_builder);
 store.lvl_builder=ini_read_real( "save1", "lvl_builder",store.lvl_builder);
 store.goal_mandown=ini_read_real( "save1", "goal_mandown",store.goal_mandown);
 store.lvl_mandown=ini_read_real( "save1", "lvl_mandown",store.lvl_mandown);
+store.goal_headshotking=ini_read_real( "save1", "goal_headshotking",store.goal_headshotking);
+store.lvl_headshotking=ini_read_real( "save1", "lvl_headshotking",store.lvl_headshotking);
 //Perm Stats
 store.perm_maxhp=ini_read_real( "save1", "perm_maxhp",store.perm_maxhp);
 store.perm_startgold=ini_read_real( "save1", "perm_startgold",store.perm_startgold);
@@ -122,7 +124,6 @@ store.enemies_killed_run=ini_read_real( "save1", "enemies_killed_run",store.enem
 store.gems_earned_run=ini_read_real( "save1", "gems_earned_run",store.gems_earned_run);
 store.maxhp=ini_read_real( "save1", "maxhp",store.maxhp);
 store.hp=ini_read_real( "save1", "hp",store.hp);
-store.killgold=ini_read_real( "save1", "killgold",store.killgold);
 store.perm_wavegold=ini_read_real( "save1", "perm_wavegold",store.perm_wavegold);
 store.perm_startgold=ini_read_real( "save1", "perm_startgold",store.perm_startgold);
 store.critical_multiplier=ini_read_real( "save1", "critical_multiplier",store.critical_multiplier);

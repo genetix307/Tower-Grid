@@ -3,4 +3,4 @@ fade=1
 save_game()
 
 audio_stop_all()
-audio_play_sound(bgm_title,1,true)
+if room=rm_menu_home {if !audio_is_playing(bgm_menu) {audio_play_sound(bgm_menu,1,true)}}
