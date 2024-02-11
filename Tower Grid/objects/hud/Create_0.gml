@@ -25,7 +25,7 @@ audio_play_sound(bgm_to_play,1,true)
 if store.best_stage>1 {
 layer_bg=layer_get_id("Background")
 bg_id=layer_background_get_id(layer_bg)
-layer_background_change(bg_id,choose(spr_floor_grass,spr_floor_grass_dark,spr_floor_desert))
+layer_background_change(bg_id,choose(spr_floor_grass,spr_floor_grass,spr_floor_grass_dark,spr_floor_desert,spr_floor_dirt))
 }
 
 //Status Boosts
