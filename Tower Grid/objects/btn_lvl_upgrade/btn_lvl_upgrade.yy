@@ -38,7 +38,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "InGame",
-    "path": "folders/Objects/Menu/InGame.yy",
+    "name": "buttons",
+    "path": "folders/Objects/Menu/buttons.yy",
   },
 }

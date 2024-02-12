@@ -135,7 +135,20 @@ ini_write_real( "save1", "luck", store.luck);
 //In game Status Effects
 ini_write_real( "save1", "active_template", store.active_template);
 //Ingame Perks
-ini_write_real( "save1", "perk_lvl_template", store.perk_lvl_template);
+/*
+ini_write_real( "save1", "perk_lvl_repair", store.perk_lvl_repair);
+ini_write_real( "save1", "perk_lvl_ironwalls", store.perk_lvl_ironwalls);
+ini_write_real( "save1", "perk_lvl_regen", store.perk_lvl_regen);
+ini_write_real( "save1", "perk_lvl_scope", store.perk_lvl_scope);
+ini_write_real( "save1", "perk_lvl_sharpshooter", store.perk_lvl_sharpshooter);
+ini_write_real( "save1", "perk_lvl_plunder", store.perk_lvl_plunder);
+ini_write_real( "save1", "perk_lvl_toughskin", store.perk_lvl_toughskin);
+ini_write_real( "save1", "perk_lvl_miner", store.perk_lvl_miner);
+ini_write_real( "save1", "perk_lvl_snakeeyes", store.perk_lvl_snakeeyes);
+ini_write_real( "save1", "perk_lvl_wisdom", store.perk_lvl_wisdom);
+ini_write_real( "save1", "perk_lvl_killgold", store.perk_lvl_killgold);
+ini_write_real( "save1", "perk_lvl_wavegold", store.perk_lvl_wavegold);
+*/
 
 //Misc
 //ini_write_real( "save1", "current_tab", store.current_tab);

@@ -133,7 +133,20 @@ store.luck=ini_read_real( "save1", "luck",store.luck);
 //In game Status Effects
 store.active_template=ini_read_real( "save1", "active_template",store.active_template);
 //Ingame Perks
+/*
+store.perk_lvl_repair=ini_read_real( "save1", "perk_lvl_repair",store.perk_lvl_repair);
+store.perk_lvl_ironwalls=ini_read_real( "save1", "perk_lvl_ironwalls",store.perk_lvl_ironwalls);
+store.perk_lvl_regen=ini_read_real( "save1", "perk_lvl_regen",store.perk_lvl_regen);
+store.perk_lvl_scope=ini_read_real( "save1", "perk_lvl_scope",store.perk_lvl_scope);
+store.perk_lvl_sharpshooter=ini_read_real( "save1", "perk_lvl_sharpshooter",store.perk_lvl_sharpshooter);
 store.perk_lvl_template=ini_read_real( "save1", "perk_lvl_template",store.perk_lvl_template);
+store.perk_lvl_template=ini_read_real( "save1", "perk_lvl_template",store.perk_lvl_template);
+store.perk_lvl_template=ini_read_real( "save1", "perk_lvl_template",store.perk_lvl_template);
+store.perk_lvl_template=ini_read_real( "save1", "perk_lvl_template",store.perk_lvl_template);
+store.perk_lvl_template=ini_read_real( "save1", "perk_lvl_template",store.perk_lvl_template);
+store.perk_lvl_template=ini_read_real( "save1", "perk_lvl_template",store.perk_lvl_template);
+store.perk_lvl_template=ini_read_real( "save1", "perk_lvl_template",store.perk_lvl_template);
+*/
 //Misc
 //store.current_tab=ini_read_real( "save1", "current_tab",store.current_tab);
 //store.bloodmoon=ini_read_string( "save1", "bloodmoon",store.bloodmoon);

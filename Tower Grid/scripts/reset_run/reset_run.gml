@@ -18,7 +18,18 @@ store.luck=store.perm_luck
 //In game Status Effects
 store.active_template=0
 //Ingame Perks
-store.perk_lvl_template=0
+store.perk_lvl_repair=0
+store.perk_lvl_ironwalls=0
+store.perk_lvl_regen=0
+store.perk_lvl_scope=0
+store.perk_lvl_sharpshooter=0
+store.perk_lvl_plunder=0
+store.perk_lvl_toughskin=0
+store.perk_lvl_miner=0
+store.perk_lvl_snakeeyes=0
+store.perk_lvl_wisdom=0
+store.perk_lvl_killgold=0
+store.perk_lvl_wavegold=0
 
 //Misc
 //store.current_tab=0

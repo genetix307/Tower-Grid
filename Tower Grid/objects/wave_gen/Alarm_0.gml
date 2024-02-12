@@ -31,7 +31,11 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    show_wave=3
    alarm[0]=60/store.game_speed
    hit_this_wave+=1
-   store.gold+=store.perm_wavegold
+   store.gold+=store.perm_wavegold+store.perk_lvl_wavegold
+   store.gold_earned+=store.perm_wavegold+store.perk_lvl_wavegold
+   //Regen 
+   store.hp+=store.perk_lvl_regen
+   if store.hp>store.maxhp {store.hp=store.maxhp}
    challenge_survivor()
 }
 }

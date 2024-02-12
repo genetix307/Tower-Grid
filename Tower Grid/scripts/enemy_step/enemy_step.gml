@@ -31,9 +31,11 @@ if status_frozen>0 {status_frozen-=1}
 if hp<=0 and no_drop=0 {
 repeat 4 instance_create_depth(x,y,depth,effect_schrapnel)
 instance_create_depth(x,y,depth,effect_explosion_medium)
-if boss=0 {store.enemies_slain+=1 store.gold+=1 store.gold_earned+=1 if 50+store.perm_luck>random(100) {store.xp+=1 instance_create_depth(x,y-24,depth,effect_show_xp).myText=1}}
-if boss=1 {store.bosses_slain+=1 store.gold+=5 store.gold_earned+=5 repeat 8 instance_create_depth(x,y,depth,effect_schrapnel) repeat 4 instance_create_depth(x+random_range(-20,20),y+random_range(-20,20),depth,effect_explosion_medium) store.xp+=5 instance_create_depth(x,y-24,depth,effect_show_xp).myText=5 challenge_boss_slayer()}
+if boss=0 {store.enemies_slain+=1 store.gold+=1+store.perk_lvl_killgold store.gold_earned+=1+store.perk_lvl_killgold if 50+store.perm_luck>random(100) {store.xp+=1+store.perk_lvl_wisdom instance_create_depth(x,y-24,depth,effect_show_xp).myText=1+store.perk_lvl_wisdom}}
+if boss=1 {store.bosses_slain+=1 store.gold+=5+store.perk_lvl_killgold store.gold_earned+=5+store.perk_lvl_killgold repeat 8 instance_create_depth(x,y,depth,effect_schrapnel) repeat 4 instance_create_depth(x+random_range(-20,20),y+random_range(-20,20),depth,effect_explosion_medium) store.xp+=5 instance_create_depth(x,y-24,depth,effect_show_xp).myText=5 challenge_boss_slayer()}
 store.enemies_killed_run+=1
+//Plunder
+if store.perk_lvl_plunder>random(100) {store.gems+=1 store.gems_earned+=1 store.gems_earned_run+=1 instance_create_depth(x,y,depth,show_get_gem)}
 instance_destroy()
 }
 if hp<=0 and no_drop=1 {instance_destroy()}

@@ -1,6 +1,7 @@
+draw_btn_color()
 draw_self()
 
-draw_set_font(font_upgrades)
+draw_set_font(font_buttons)
 draw_text_color(x+8,y+3,myHeader,c_yellow,c_yellow,c_orange,c_orange,1)
 draw_set_font(font_stats)
 draw_set_color(c_white)

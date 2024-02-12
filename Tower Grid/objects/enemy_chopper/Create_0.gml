@@ -1,7 +1,7 @@
-maxhp=48+(store.current_stage*2)
+maxhp=55+(store.current_stage*2)
 hp=maxhp
 range=200
-move_speed=.65
+move_speed=.7
 reload_time=35
 reload_counter=0
 attack_damage=1
