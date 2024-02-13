@@ -9,3 +9,5 @@ direction+=random_range(-6,6)
 }
 image_angle=direction
 alarm[1]=3
+
+audio_play_sound(sfx_bullet,1,false)

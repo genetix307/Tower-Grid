@@ -9,6 +9,8 @@ boss=1
 wpn="laserblast"
 no_drop=0
 flying=0
+shield=0
+troop=0
 enemy_create()
 
 

@@ -6,3 +6,5 @@ direction+=random_range(-6,6)
 image_angle=direction
 
 instance_create_depth(x,y+18,depth-10,effect_smoke_enemy_shot)
+
+audio_play_sound(sfx_bullet,1,false)

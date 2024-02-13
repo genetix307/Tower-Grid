@@ -9,6 +9,8 @@ boss=0
 wpn="missile"
 no_drop=1
 flying=0
+shield=0
+troop=1
 enemy_create()
 
 

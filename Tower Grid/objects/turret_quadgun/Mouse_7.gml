@@ -1,4 +1,5 @@
-hud.selected_turret=myID
+if hud.game_paused=0 {
+	hud.selected_turret=myID
 hud.game_paused=1
 show_status=instance_create_depth(240,240,depth-100,show_turret_stats)
 
@@ -14,6 +15,5 @@ show_status.myAbility=ability
 instance_create_depth(322,380,depth-110,btn_tower_upgrade).cost=cost
 instance_create_depth(157,380,depth-110,btn_tower_sell).sell_value=level*25
 
-
-
+}
 

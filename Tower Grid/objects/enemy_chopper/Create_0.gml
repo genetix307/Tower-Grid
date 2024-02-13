@@ -9,6 +9,8 @@ boss=0
 wpn="bullet"
 no_drop=0
 flying=1
+shield=0
+troop=0
 enemy_create()
 
 image_xscale=1.5
