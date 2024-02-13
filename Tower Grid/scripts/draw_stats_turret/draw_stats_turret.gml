@@ -6,5 +6,7 @@ if myType="Cannon" {draw_sprite_ext(spr_turret_cannon,image_index,392,103,1,1,18
 if myType="Machine Gun" {draw_sprite_ext(spr_turret_machinegun,image_index,392,103,1,1,180,c_white,1)}
 if myType="Missile Launcher" {draw_sprite_ext(spr_turret_missilelauncher,image_index,392,103,1,1,180,c_white,1)}
 if myType="Quad Gun" {draw_sprite_ext(spr_turret_quadgun,image_index,392,103,1,1,180,c_white,1)}
+if myType="Freeze Ray" {draw_sprite_ext(spr_turret_freezeray,image_index,392,103,1,1,180,c_white,1)}
+if myType="Toxic Cannon" {draw_sprite_ext(spr_turret_toxiccannon,image_index,392,103,1,1,180,c_white,1)}
 
 }

@@ -61,7 +61,7 @@ if store.perk_lvl_snakeeyes=0 {isNew=1}
 }
 if my_id=10 {
 myHeader="Wisdom"
-myInfo="Enemies give "+string(store.perk_lvl_wisdom+1)+"XP"
+myInfo="Enemies give +"+string(store.perk_lvl_wisdom+1)+" XP"
 myLevel="Level "+string(store.perk_lvl_wisdom)+">"+string(store.perk_lvl_wisdom+1)
 if store.perk_lvl_wisdom=0 {isNew=1}
 }
