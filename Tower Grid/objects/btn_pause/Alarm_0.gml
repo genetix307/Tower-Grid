@@ -7,9 +7,9 @@ hud.game_paused = 1
 //Create Settings buttons
 instance_create_depth(340,890,depth-10,btn_resume)
 instance_create_depth(130,890,depth-10,btn_abandon_run)
-instance_create_depth(92,420,depth-10,btn_sfx)
-instance_create_depth(92,480,depth-10,btn_bgm)
-instance_create_depth(242,420,depth-10,btn_set_colorscheme)
+instance_create_depth(162,360,depth-10,btn_sfx)
+instance_create_depth(162,420,depth-10,btn_bgm)
+instance_create_depth(312,360,depth-10,btn_set_colorscheme)
 //Show Challenges
 instance_create_depth(241,134,depth-10,btn_challenge).my_slot=0
 instance_create_depth(241,204,depth-10,btn_challenge).my_slot=1

@@ -7,4 +7,6 @@ if myType="Missile Launcher" {attack_damage+=5 attack_range+=10 if critical_chan
 if myType="Quad Gun" {attack_damage+=2 attack_range+=10 if critical_chance<20 {critical_chance+=.25}}
 if myType="Freeze Ray" {attack_damage+=2 attack_range+=10 if critical_chance<20 {critical_chance+=.25}}
 if myType="Toxic Cannon" {attack_damage+=2 attack_range+=10 if critical_chance<20 {critical_chance+=.25}}
+if myType="Hammer" {attack_damage+=2 attack_range+=10 if critical_chance<20 {critical_chance+=.25}}
+if myType="Absorber" {attack_damage+=1 attack_range+=10 if critical_chance<20 {critical_chance+=.25}}
 }

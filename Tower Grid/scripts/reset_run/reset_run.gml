@@ -3,7 +3,7 @@ function reset_run(){
 store.gold=store.perm_startgold
 store.current_stage=1
 store.xp=0
-store.next_level=30
+store.next_level=15
 store.level=1
 store.enemy_base_level=0
 store.tier=3

@@ -64,3 +64,25 @@ show_menu_towers.tower_critical_chance=string(store.toxiccannon_critical_chance)
 show_menu_towers.tower_knockback=string(store.toxiccannon_knockback)+"ft"
 show_menu_towers.tower_ability=store.toxiccannon_ability
 }
+
+if myID=7 and store.best_stage>=60 {
+show_menu_towers.tower="Hammer"
+show_menu_towers.tower_desc="Mid-range turret with heavy knockback"
+show_menu_towers.tower_attack_damage=store.hammer_attack_damage
+show_menu_towers.tower_attack_range=string(store.hammer_attack_range)+"ft"
+show_menu_towers.tower_reload_time=string(store.hammer_reload_time/60)+"s"
+show_menu_towers.tower_critical_chance=string(store.hammer_critical_chance)+"%"
+show_menu_towers.tower_knockback=string(store.hammer_knockback)+"ft"
+show_menu_towers.tower_ability=store.hammer_ability
+}
+
+if myID=8 and store.best_stage>=70 {
+show_menu_towers.tower="Absorber"
+show_menu_towers.tower_desc="Absorb ray with chance to restore health"
+show_menu_towers.tower_attack_damage=store.absorber_attack_damage
+show_menu_towers.tower_attack_range=string(store.absorber_attack_range)+"ft"
+show_menu_towers.tower_reload_time=string(store.absorber_reload_time/60)+"s"
+show_menu_towers.tower_critical_chance=string(store.absorber_critical_chance)+"%"
+show_menu_towers.tower_knockback=string(store.absorber_knockback)+"ft"
+show_menu_towers.tower_ability=store.absorber_ability
+}

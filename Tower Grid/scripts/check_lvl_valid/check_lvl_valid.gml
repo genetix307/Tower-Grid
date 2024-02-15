@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function check_lvl_valid(slot){
 if slot=1 {
-if store.perk_lvl_repair>=999999 {return false}
+if store.perk_lvl_repair>=999999 or store.hp>(store.maxhp*.75) {return false}
 }
 if slot=2 {
 if store.perk_lvl_ironwalls>=999999 {return false}

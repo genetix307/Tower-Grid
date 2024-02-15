@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Settings",
-    "path": "folders/Objects/Menu/Settings.yy",
+    "name": "Misc",
+    "path": "folders/Objects/Menu/Misc.yy",
   },
 }

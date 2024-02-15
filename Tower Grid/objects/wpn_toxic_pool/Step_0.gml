@@ -1,6 +1,6 @@
 depth=-y+100
 if image_xscale<1 {
-image_xscale+=.03
+image_xscale+=.04
 image_yscale=image_xscale
 }
 

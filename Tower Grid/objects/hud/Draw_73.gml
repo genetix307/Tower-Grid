@@ -1,4 +1,3 @@
-
 var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 
@@ -117,6 +116,17 @@ draw_set_alpha(1)
 draw_set_font(font_large_hud)
 draw_text_color(138,6,"Game Paused",c_black,c_black,c_black,c_black,1)
 draw_text_color(136,4,"Game Paused",c_yellow,c_yellow,c_orange,c_orange,1)
+//Draw Stats
+draw_set_font(font_med_hud)
+draw_text_color(16,700,"Run Stats",c_white,c_white,c_silver,c_silver,1)
+draw_line_color(16,716,90,716,c_white,c_silver)
+draw_set_font(font_stats)
+draw_text_color(16,720,"Level: "+string(store.level)+" "+string(store.xp)+"/"+string(store.next_level),c_white,c_white,c_white,c_white,1)
+draw_text_color(16,740,"Health: "+string(store.hp)+"/"+string(store.maxhp),c_white,c_white,c_white,c_white,1)
+draw_text_color(16,760,"Critical Multiplier x "+string(store.critical_multiplier),c_white,c_white,c_white,c_white,1)
+draw_text_color(16,780,"Defense "+string(store.defense)+"%",c_white,c_white,c_white,c_white,1)
+draw_text_color(16,800,"Luck "+string(store.luck)+"%",c_white,c_white,c_white,c_white,1)
+draw_text_color(16,820,"Enemies Slain "+string(store.enemies_killed_run),c_white,c_white,c_white,c_white,1)
 }
 
 //gameover
@@ -141,7 +151,7 @@ if game_over = 1 {
 	//Show Gems bonuses
 	if store.current_stage>1 {
 	draw_text_color(cx+316,cy+254,"+"+string(round(store.current_stage*store.perm_wavegems))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
-	draw_text_color(cx+316,cy+279,"+"+string(round(store.level*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
+	draw_text_color(cx+316,cy+279,"+"+string(round((store.level-1)*10))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	draw_text_color(cx+316,cy+304,"+"+string(ceil(store.enemies_killed_run))+" gems",c_yellow,c_yellow,c_yellow,c_orange,1)
 	}
 	//Show end message

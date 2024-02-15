@@ -37,6 +37,9 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    store.hp+=store.perk_lvl_regen
    if store.hp>store.maxhp {store.hp=store.maxhp}
    challenge_survivor()
+   
+   //Coin Chest
+   if store.current_stage>5 and instance_number(chest_coins)=0 and 25>random(100) {instance_create_depth(454,938,depth-10,chest_coins)}
 }
 }
 
