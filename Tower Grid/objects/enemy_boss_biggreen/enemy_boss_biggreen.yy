@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "enemy_boss_destroyer",
+  "name": "enemy_boss_biggreen",
   "spriteId": {
-    "name": "spr_boss_destroyer",
-    "path": "sprites/spr_boss_destroyer/spr_boss_destroyer.yy",
+    "name": "spr_boss_biggreen",
+    "path": "sprites/spr_boss_biggreen/spr_boss_biggreen.yy",
   },
   "solid": false,
   "visible": true,

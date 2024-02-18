@@ -12,7 +12,7 @@ if hud.game_paused=0 and hud.game_over=0 {
 //Move to range
 if distance_to_object(tower_base)>=range and status_frozen<=0 {y+=move_speed*store.game_speed image_speed=1}
 //Attack
-if distance_to_object(tower_base)<=range and reload_counter<=0  and status_frozen<=0  
+if distance_to_object(tower_base)<=(range+sub_range) and reload_counter<=0  and status_frozen<=0  
 {
 reload_counter=reload_time
 image_angle=point_direction(x,y,tower_base.x,tower_base.y)+90

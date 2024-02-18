@@ -14,6 +14,7 @@ if instance_number(default_tower)>1 {move_speed+=instance_number(default_tower)*
 //Give Shield
 if store.current_stage>50 {if 5>random(100) {shield=5}}
 
+
 //Status
 status_frozen=0
 status_knockback=0

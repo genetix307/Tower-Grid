@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "enemy_boss_destroyer",
+  "name": "enemy_tank_heavygunner",
   "spriteId": {
-    "name": "spr_boss_destroyer",
-    "path": "sprites/spr_boss_destroyer/spr_boss_destroyer.yy",
+    "name": "spr_boss_heavygunner",
+    "path": "sprites/spr_boss_heavygunner/spr_boss_heavygunner.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,6 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"default_enemy","path":"objects/default_enemy/default_enemy.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

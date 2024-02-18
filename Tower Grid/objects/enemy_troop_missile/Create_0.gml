@@ -1,6 +1,7 @@
 maxhp=3
 hp=maxhp
 range=150
+sub_range=0
 move_speed=.65
 reload_time=130
 reload_counter=0

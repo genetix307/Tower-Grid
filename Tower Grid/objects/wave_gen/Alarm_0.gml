@@ -8,14 +8,16 @@ if spawn_count>0
 	if store.current_stage>2 and 15>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_yellow) spawn_break=1}
 	if store.current_stage>12 and 4>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_transport) spawn_break=1}
 	if store.current_stage>10 and 5>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_flamethrower) spawn_break=1}
+	if store.current_stage>24 and 5>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_chopper) spawn_break=1}
+	if store.current_stage>34 and 5>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_heavygunner) spawn_break=1}
 	if store.current_stage>4 and 5>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_green) spawn_break=1}
-	if store.current_stage>25 and 5>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_chopper) spawn_break=1}
 	if spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank) spawn_break=1}
 	
 	//Spawn Boss
 	if (store.current_stage)%10==0 
 	{
 	if store.current_stage>=30 and 30>random(100) and spawn_boss=0 {instance_create_depth(240,-320+random(100),depth,enemy_boss_destroyer) spawn_boss=1}
+	if store.current_stage>=50 and 30>random(100) and spawn_boss=0 {instance_create_depth(240,-320+random(100),depth,enemy_boss_biggreen) spawn_boss=1}
 	if spawn_boss=0 {instance_create_depth(240,-320+random(100),depth,enemy_boss_lasercannon) spawn_boss=1}
 	}
 }
