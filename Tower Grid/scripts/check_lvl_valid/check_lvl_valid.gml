@@ -37,6 +37,9 @@ if store.perk_lvl_killgold>=10 {return false}
 if slot=12 {
 if store.perk_lvl_wavegold>=100 {return false}
 }
+if slot=13 {
+if store.perk_lvl_timejump>=100 or store.best_stage<50 or store.current_stage>(store.best_stage-10) {return false}
+}
 
 return true
 }

@@ -8,4 +8,5 @@ if show_menu_towers.tower="Freeze Ray" {if store.gems>=store.freezeray_lvl*250 {
 if show_menu_towers.tower="Toxic Cannon" {if store.gems>=store.toxiccannon_lvl*250 {greyed_out=0} cost=store.toxiccannon_lvl*250}
 if show_menu_towers.tower="Hammer" {if store.gems>=store.hammer_lvl*250 {greyed_out=0} cost=store.hammer_lvl*250}
 if show_menu_towers.tower="Absorber" {if store.gems>=store.absorber_lvl*250 {greyed_out=0} cost=store.absorber_lvl*250}
+if show_menu_towers.tower="Longshot" {if store.gems>=store.longshot_lvl*250 {greyed_out=0} cost=store.longshot_lvl*250}
 if show_menu_towers.tower="" {cost=0}

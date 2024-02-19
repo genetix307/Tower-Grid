@@ -45,5 +45,10 @@ store.perk_lvl_killgold+=1
 if my_id=12 {
 store.perk_lvl_wavegold+=1
 }
+if my_id=13 {
+store.perk_lvl_timejump+=1
+store.gold+=250*store.perk_lvl_timejump
+store.current_stage+=10
+}
 
 }

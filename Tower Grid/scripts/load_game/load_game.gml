@@ -73,6 +73,13 @@ store.absorber_critical_chance=ini_read_real( "save1", "absorber_critical_chance
 store.absorber_knockback=ini_read_real( "save1", "absorber_knockback",store.absorber_knockback);
 store.absorber_ability=ini_read_string( "save1", "absorber_ability",store.absorber_ability);
 store.absorber_lvl=ini_read_real( "save1", "absorber_lvl",store.absorber_lvl);
+store.longshot_attack_damage=ini_read_real( "save1", "longshot_attack_damage",store.longshot_attack_damage);
+store.longshot_attack_range=ini_read_real( "save1", "longshot_attack_range",store.longshot_attack_range);
+store.longshot_reload_time=ini_read_real( "save1", "longshot_reload_time",store.longshot_reload_time);
+store.longshot_critical_chance=ini_read_real( "save1", "longshot_critical_chance",store.longshot_critical_chance);
+store.longshot_knockback=ini_read_real( "save1", "longshot_knockback",store.longshot_knockback);
+store.longshot_ability=ini_read_string( "save1", "longshot_ability",store.longshot_ability);
+store.longshot_lvl=ini_read_real( "save1", "longshot_lvl",store.longshot_lvl);
 
 //Challenges
 store.challenge_a=ini_read_real( "save1", "challenge_a",store.challenge_a);
@@ -172,6 +179,7 @@ store.code_payday=ini_read_real( "save1", "code_payday",store.code_payday);
 store.code_kickstart=ini_read_real( "save1", "code_kickstart",store.code_kickstart);
 store.code_lotto=ini_read_real( "save1", "code_lotto",store.code_lotto);
 store.code_steelheart=ini_read_real( "save1", "code_steelheart",store.code_steelheart);
+store.code_lonetower=ini_read_real( "save1", "code_lonetower",store.code_lonetower);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);

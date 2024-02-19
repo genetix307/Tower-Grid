@@ -9,7 +9,7 @@ store.gems=0
 store.scraps=0
 
 //Game Settings
-store.color_scheme=0
+store.color_scheme=4
 store.sfx_volume=1
 store.bgm_volume=1
 store.bonus_discord=0
@@ -125,6 +125,13 @@ store.absorber_critical_chance=1
 store.absorber_knockback=10
 store.absorber_ability="Lifesteal"
 store.absorber_lvl=1
+store.longshot_attack_damage=15
+store.longshot_attack_range=650
+store.longshot_reload_time=150
+store.longshot_critical_chance=10
+store.longshot_knockback=30
+store.longshot_ability="None"
+store.longshot_lvl=1
 //Inventory
 store.have_template=1 //ex: have_potions
 
@@ -175,4 +182,5 @@ store.code_payday=0
 store.code_kickstart=0
 store.code_lotto=0
 store.code_steelheart=0
+store.code_lonetower=0
 }
