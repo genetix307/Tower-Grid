@@ -7,5 +7,7 @@ if instance_number(default_enemy)>0 {
 direction=point_direction(x,y,instance_nearest(x,y,default_enemy).x,instance_nearest(x,y,default_enemy).y)
 }
 image_angle=direction
-alarm[1]=3
-audio_play_sound(sfx_fire_cannon,1,false)
+alarm[1]=2
+//audio_play_sound(sfx_fire_cannon,1,false)
+audio_play_sound(sfx_fire_cannon,1+random(1),false)
+instance_create_depth(x,y,depth-10,effect_muzzle_tower_shot).image_angle=image_angle-90

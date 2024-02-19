@@ -11,3 +11,4 @@ image_angle=direction
 alarm[1]=3
 
 audio_play_sound(sfx_bullet,1,false)
+instance_create_depth(x,y,depth-10,effect_muzzle_tower_shot).image_angle=image_angle-90

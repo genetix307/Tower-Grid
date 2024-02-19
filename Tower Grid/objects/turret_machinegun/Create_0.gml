@@ -9,9 +9,5 @@ knockback=store.machinegun_knockback
 ability=store.machinegun_ability
 critical_chance=store.machinegun_critical_chance+(store.perk_lvl_sharpshooter)
 cost=10
-
-
-
-
-
-
+rotation_speed=0
+image_speed=0

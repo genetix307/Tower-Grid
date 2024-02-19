@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "turret_hammer",
   "spriteId": {
-    "name": "spr_turret_hammer",
-    "path": "sprites/spr_turret_hammer/spr_turret_hammer.yy",
+    "name": "spr_turret_hammer2",
+    "path": "sprites/spr_turret_hammer2/spr_turret_hammer2.yy",
   },
   "solid": false,
   "visible": true,

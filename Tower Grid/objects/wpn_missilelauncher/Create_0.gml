@@ -10,5 +10,4 @@ direction=point_direction(x,y,instance_nearest(x,y,default_enemy).x,instance_nea
 image_angle=direction
 
 alarm[0]=15/store.game_speed //Homing re-align
-alarm[1]=3
 audio_play_sound(sfx_fire_missile,1,false)
