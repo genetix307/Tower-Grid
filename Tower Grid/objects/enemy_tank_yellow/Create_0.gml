@@ -1,6 +1,8 @@
 maxhp=20+floor(store.current_stage*1.50)
+if store.current_stage>=50 {maxhp+=10}
 hp=maxhp
 range=140
+sub_range=0
 move_speed=.65
 reload_time=80
 reload_counter=0

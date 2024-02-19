@@ -10,9 +10,9 @@ draw_stats()
 //Draw Current Wave
 draw_set_font(font_stats)
 draw_set_color(c_black)
-draw_text(cx+8,cy+50,"Wave "+string(store.current_stage))   
+draw_text(cx+10,cy+50,"Wave "+string(store.current_stage))   
 draw_set_color(c_white)
-draw_text(cx+10,cy+48,"Wave "+string(store.current_stage))
+draw_text(cx+8,cy+48,"Wave "+string(store.current_stage))
 
 //Draw next tower cost
 if instance_number(default_tower)<6 {draw_text_color(cx+7,cy+942,"Next Tower Cost x"+string(25*hud.towers_built),c_white,c_white,c_silver,c_silver,.9)}

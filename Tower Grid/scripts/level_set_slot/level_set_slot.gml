@@ -78,6 +78,12 @@ myInfo="Gain +"+string((store.perk_lvl_wavegold+1)*3)+" Gold each day"
 myLevel="Level "+string(store.perk_lvl_wavegold)+">"+string(store.perk_lvl_wavegold+1)
 if store.perk_lvl_wavegold=0 {isNew=1}
 }
+if my_id=13 {
+myHeader="Time Jump"
+myInfo="Skip 10 Waves and Gain "+string(store.perk_lvl_timejump*250)+" Gold"
+myLevel="Level "+string(store.perk_lvl_timejump)+">"+string(store.perk_lvl_timejump+1)
+if store.perk_lvl_timejump=0 {isNew=1}
+}
 
 
 }

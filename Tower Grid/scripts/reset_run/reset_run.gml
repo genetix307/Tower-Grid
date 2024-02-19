@@ -30,6 +30,7 @@ store.perk_lvl_snakeeyes=0
 store.perk_lvl_wisdom=0
 store.perk_lvl_killgold=0
 store.perk_lvl_wavegold=0
+store.perk_lvl_timejump=0
 
 //Misc
 //store.current_tab=0

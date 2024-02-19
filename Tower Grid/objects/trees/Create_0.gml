@@ -7,6 +7,11 @@ scale_up=random(.25)
 x=random(room_width)
 y=random(room_height)
 
+if store.current_stage>1 {
+x=random_range(100,room_width-100)
+y=random(room_height-100)
+}
+
 depth=-y-30
 
 alarm[0]=3

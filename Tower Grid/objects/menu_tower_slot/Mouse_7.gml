@@ -86,3 +86,14 @@ show_menu_towers.tower_critical_chance=string(store.absorber_critical_chance)+"%
 show_menu_towers.tower_knockback=string(store.absorber_knockback)+"ft"
 show_menu_towers.tower_ability=store.absorber_ability
 }
+
+if myID=9 and store.best_stage>=80 {
+show_menu_towers.tower="Longshot"
+show_menu_towers.tower_desc="Long Range Heavy Precision Cannon"
+show_menu_towers.tower_attack_damage=store.longshot_attack_damage
+show_menu_towers.tower_attack_range=string(store.longshot_attack_range)+"ft"
+show_menu_towers.tower_reload_time=string(store.longshot_reload_time/60)+"s"
+show_menu_towers.tower_critical_chance=string(store.longshot_critical_chance)+"%"
+show_menu_towers.tower_knockback=string(store.longshot_knockback)+"ft"
+show_menu_towers.tower_ability=store.longshot_ability
+}
