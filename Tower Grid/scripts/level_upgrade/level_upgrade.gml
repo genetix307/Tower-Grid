@@ -31,6 +31,7 @@ store.defense+=1
 if my_id=8 {
 store.perk_lvl_miner+=1
 store.gems+=15+(store.perk_lvl_miner*10)
+store.gems_earned+=15+(store.perk_lvl_miner*10)
 }
 if my_id=9 {
 store.perk_lvl_snakeeyes+=1
@@ -48,6 +49,7 @@ store.perk_lvl_wavegold+=1
 if my_id=13 {
 store.perk_lvl_timejump+=1
 store.gold+=250*store.perk_lvl_timejump
+store.gold_earned+=250*store.perk_lvl_timejump
 store.current_stage+=10
 }
 

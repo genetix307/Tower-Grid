@@ -10,6 +10,7 @@ store.bonus_discord=ini_read_real( "save1", "bonus_discord",store.bonus_discord)
 //store.auto_perk=ini_read_real( "save1", "auto_perk",store.auto_perk);
 store.ads_watched=ini_read_real( "save1", "ads_watched",store.ads_watched);
 store.effects=ini_read_real( "save1", "effects",store.effects);
+store.game_speed=ini_read_real( "save1", "game_speed",store.game_speed);
 //store.show_healthbars=ini_read_real( "save1", "show_healthbars",store.show_healthbars);
 //store.auto_upgrade=ini_read_real( "save1", "auto_upgrade",store.auto_upgrade);
 //store.auto_event=ini_read_real( "save1", "auto_event",store.auto_event);

@@ -8,7 +8,7 @@ if slot=2 {
 if store.perk_lvl_ironwalls>=999999 {return false}
 }
 if slot=3 {
-if store.perk_lvl_regen>=5 {return false}
+if store.perk_lvl_regen>=10 {return false}
 }
 if slot=4 {
 if store.perk_lvl_scope>=5 {return false}

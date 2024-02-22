@@ -10,6 +10,7 @@ ini_write_real( "save1", "bonus_discord", store.bonus_discord);
 //ini_write_real( "save1", "auto_perk", store.auto_perk);
 ini_write_real( "save1", "ads_watched", store.ads_watched);
 ini_write_real( "save1", "effects", store.effects);
+ini_write_real( "save1", "game_speed", store.game_speed);
 //ini_write_real( "save1", "show_healthbars", store.show_healthbars);
 //ini_write_real( "save1", "auto_upgrade", store.auto_upgrade);
 //ini_write_real( "save1", "auto_guardian", store.auto_guardian);
