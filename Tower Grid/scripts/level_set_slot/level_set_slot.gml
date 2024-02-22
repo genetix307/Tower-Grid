@@ -31,13 +31,13 @@ if store.perk_lvl_scope=0 {isNew=1}
 }
 if my_id=5 {
 myHeader="Sharpshooter"
-myInfo="Gain +1% Critical Chance"
+myInfo="Towers +1% Critical Chance"
 myLevel="Level "+string(store.perk_lvl_sharpshooter)+">"+string(store.perk_lvl_sharpshooter+1)
 if store.perk_lvl_sharpshooter=0 {isNew=1}
 }
 if my_id=6 {
 myHeader="Plunder"
-myInfo=string((store.perk_lvl_plunder+1))+"% chance enemies drop Gem"
+myInfo=string((store.perk_lvl_plunder+1)*2)+"% chance enemies drop Gem"
 myLevel="Level "+string(store.perk_lvl_plunder)+">"+string(store.perk_lvl_plunder+1)
 if store.perk_lvl_plunder=0 {isNew=1}
 }
@@ -80,7 +80,7 @@ if store.perk_lvl_wavegold=0 {isNew=1}
 }
 if my_id=13 {
 myHeader="Time Jump"
-myInfo="Skip 10 Waves and Gain "+string(store.perk_lvl_timejump*250)+" Gold"
+myInfo="Skip 10 Waves and Gain "+string((store.perk_lvl_timejump+1)*250)+" Gold"
 myLevel="Level "+string(store.perk_lvl_timejump)+">"+string(store.perk_lvl_timejump+1)
 if store.perk_lvl_timejump=0 {isNew=1}
 }

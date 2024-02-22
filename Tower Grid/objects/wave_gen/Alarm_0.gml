@@ -41,7 +41,9 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    if store.hp>store.maxhp {store.hp=store.maxhp}
    challenge_survivor()
    //Coin Chest
-   if store.current_stage>5 and instance_number(chest_coins)=0 and 25>random(100) {instance_create_depth(454,938,depth-10,chest_coins)}
+   if store.current_stage>5 and instance_number(chest_coins)=0 and 25>random(100) {instance_create_depth(451,935,depth-10,chest_coins)}
+   //Supply Drop
+   if store.current_stage>1 and instance_number(supply_crate)=0 and 3+store.luck>random(100) {instance_create_depth(-100,tower_base.y,depth-10,supply_balloon)}
    //Gen Clouds & birds
    repeat 5 instance_create_depth(random_range(-800,-360),random(760),hud.depth,bird) //Create some birds
    if 4>random(10) {instance_create_depth(-1000,y,depth,effect_cloud_shadow)}
