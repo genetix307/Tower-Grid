@@ -110,7 +110,6 @@
     {"id":{"name":"font_med_hud","path":"fonts/font_med_hud/font_med_hud.yy",},"order":3,},
     {"id":{"name":"effect_show_damage","path":"objects/effect_show_damage/effect_show_damage.yy",},"order":7,},
     {"id":{"name":"rm_menu_home","path":"rooms/rm_menu_home/rm_menu_home.yy",},"order":2,},
-    {"id":{"name":"spr_chest_2","path":"sprites/spr_chest_2/spr_chest_2.yy",},"order":23,},
     {"id":{"name":"spr_effect_explosion_medium","path":"sprites/spr_effect_explosion_medium/spr_effect_explosion_medium.yy",},"order":3,},
     {"id":{"name":"effect_show_player_heal","path":"objects/effect_show_player_heal/effect_show_player_heal.yy",},"order":17,},
     {"id":{"name":"chest_coins","path":"objects/chest_coins/chest_coins.yy",},"order":8,},
