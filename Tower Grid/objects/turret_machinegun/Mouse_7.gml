@@ -13,7 +13,7 @@ show_status.myKnockback=knockback
 show_status.myAbility=ability
 
 instance_create_depth(322,380,depth-110,btn_tower_upgrade).cost=cost
-instance_create_depth(157,380,depth-110,btn_tower_sell).sell_value=level*40
+instance_create_depth(157,380,depth-110,btn_tower_sell).sell_value=(level*40)+(50*store.perk_lvl_capitalgains)
 
 
 }

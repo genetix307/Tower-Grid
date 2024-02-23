@@ -80,9 +80,15 @@ if store.perk_lvl_wavegold=0 {isNew=1}
 }
 if my_id=13 {
 myHeader="Time Jump"
-myInfo="Skip 10 Waves and Gain "+string((store.perk_lvl_timejump+1)*250)+" Gold"
+myInfo="Skip 10 Waves get "+string((store.perk_lvl_timejump+1)*250)+" Gold"
 myLevel="Level "+string(store.perk_lvl_timejump)+">"+string(store.perk_lvl_timejump+1)
 if store.perk_lvl_timejump=0 {isNew=1}
+}
+if my_id=14 {
+myHeader="Capital gains"
+myInfo="Towers Sell for +"+string((store.perk_lvl_capitalgains+1)*50)+" Gold"
+myLevel="Level "+string(store.perk_lvl_capitalgains)+">"+string(store.perk_lvl_capitalgains+1)
+if store.perk_lvl_capitalgains=0 {isNew=1}
 }
 
 

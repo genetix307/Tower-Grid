@@ -52,5 +52,8 @@ store.gold+=250*store.perk_lvl_timejump
 store.gold_earned+=250*store.perk_lvl_timejump
 store.current_stage+=10
 }
+if my_id=14 {
+store.perk_lvl_capitalgains+=1
+}
 
 }

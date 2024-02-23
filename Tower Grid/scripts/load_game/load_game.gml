@@ -181,6 +181,7 @@ store.code_kickstart=ini_read_real( "save1", "code_kickstart",store.code_kicksta
 store.code_lotto=ini_read_real( "save1", "code_lotto",store.code_lotto);
 store.code_steelheart=ini_read_real( "save1", "code_steelheart",store.code_steelheart);
 store.code_lonetower=ini_read_real( "save1", "code_lonetower",store.code_lonetower);
+store.code_popcorn=ini_read_real( "save1", "code_popcorn",store.code_popcorn);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);
