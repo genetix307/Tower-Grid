@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "chest_coins",
   "spriteId": {
-    "name": "spr_chest_2",
-    "path": "sprites/spr_chest_2/spr_chest_2.yy",
+    "name": "spr_chest",
+    "path": "sprites/spr_chest/spr_chest.yy",
   },
   "solid": false,
   "visible": true,

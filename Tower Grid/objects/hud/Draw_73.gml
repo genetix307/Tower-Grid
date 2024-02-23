@@ -109,10 +109,11 @@ draw_set_alpha(1)
 }
 
 //Draw Paused
-if hud.game_paused=1 and hud.game_over=0 and hud.selected_turret=0 { //and instance_number(event_handler)<1 {
+if hud.game_paused=1 and hud.game_over=0 and hud.selected_turret=0 {
 draw_set_alpha(.9)
 draw_rectangle_color(0,0,room_width,room_height,c_black,c_black,c_black,c_black,false)
 draw_set_alpha(1)
+if instance_number(show_levelup)<1 {
 draw_set_font(font_large_hud)
 draw_text_color(138,6,"Game Paused",c_black,c_black,c_black,c_black,1)
 draw_text_color(136,4,"Game Paused",c_yellow,c_yellow,c_orange,c_orange,1)
@@ -127,6 +128,7 @@ draw_text_color(16,760,"Critical Multiplier x "+string(store.critical_multiplier
 draw_text_color(16,780,"Defense "+string(store.defense)+"%",c_white,c_white,c_white,c_white,1)
 draw_text_color(16,800,"Luck "+string(store.luck)+"%",c_white,c_white,c_white,c_white,1)
 draw_text_color(16,820,"Enemies Slain "+string(store.enemies_killed_run),c_white,c_white,c_white,c_white,1)
+}
 }
 
 //gameover
