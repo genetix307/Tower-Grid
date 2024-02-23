@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "tower_base",
   "spriteId": {
-    "name": "spr_tower_base",
-    "path": "sprites/spr_tower_base/spr_tower_base.yy",
+    "name": "spr_tower_base2",
+    "path": "sprites/spr_tower_base2/spr_tower_base2.yy",
   },
   "solid": false,
   "visible": true,

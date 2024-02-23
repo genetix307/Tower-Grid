@@ -17,6 +17,11 @@ if hud.game_paused=0 and hud.game_over=0 {
 			if rotation_speed > 4
 				rotation_speed = 4
 			
+			var _spawn_length = point_distance(0,0,-16,10)
+			var _spawn_angle = point_direction(0,0,-16,10)
+			var _pointer = instance_create_depth(x+lengthdir_x(_spawn_length,_spawn_angle+image_angle),y+lengthdir_y(_spawn_length,_spawn_angle+image_angle),1,effect_casing)
+			_pointer.image_xscale*=0.6
+			_pointer.image_yscale*=0.6
 		}
 	}
 	image_speed=min(rotation_speed, 1)

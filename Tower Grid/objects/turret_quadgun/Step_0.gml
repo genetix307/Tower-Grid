@@ -25,6 +25,29 @@ if hud.game_paused=0 and hud.game_over=0 {
 			image_index = 0
 			image_speed = 0.5 * store.game_speed
 			if image_speed > 2 image_speed = 2
+			
+			_spawn_length = point_distance(0,0,-19,20)
+			_spawn_angle = point_direction(0,0,-19,20)
+			var _pointer = instance_create_depth(x+lengthdir_x(_spawn_length,_spawn_angle+image_angle),y+lengthdir_y(_spawn_length,_spawn_angle+image_angle),1,effect_casing)
+			_pointer.image_xscale*=0.8
+			_pointer.image_yscale*=0.8
+			_spawn_length = point_distance(0,0,-6,16)
+			_spawn_angle = point_direction(0,0,-6,16)
+			_pointer = instance_create_depth(x+lengthdir_x(_spawn_length,_spawn_angle+image_angle),y+lengthdir_y(_spawn_length,_spawn_angle+image_angle),1,effect_casing)
+			_pointer.image_xscale*=0.8
+			_pointer.image_yscale*=0.8
+			_spawn_length = point_distance(0,0,6,16)
+			_spawn_angle = point_direction(0,0,6,16)
+			_pointer = instance_create_depth(x+lengthdir_x(_spawn_length,_spawn_angle+image_angle),y+lengthdir_y(_spawn_length,_spawn_angle+image_angle),1,effect_casing)
+			_pointer.image_xscale*=0.8
+			_pointer.image_yscale*=0.8
+			_spawn_length = point_distance(0,0,19,20)
+			_spawn_angle = point_direction(0,0,19,20)
+			_pointer = instance_create_depth(x+lengthdir_x(_spawn_length,_spawn_angle+image_angle),y+lengthdir_y(_spawn_length,_spawn_angle+image_angle),1,effect_casing)
+			_pointer.image_xscale*=0.8
+			_pointer.image_yscale*=0.8
+			
+			
 		}
 	}
 }
