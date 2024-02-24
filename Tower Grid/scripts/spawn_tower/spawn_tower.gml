@@ -8,6 +8,8 @@ if store.best_stage>=50 {spawn=choose(turret_cannon,turret_machinegun,turret_mis
 if store.best_stage>=60 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer)}
 if store.best_stage>=70 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber)}
 if store.best_stage>=80 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot)}
+if store.best_stage>=90 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester)}
+if store.best_stage>=100 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester,turret_synccannon)}
 instance_create_depth(x,y,depth-110,spawn)
 
 }
