@@ -132,6 +132,20 @@ store.longshot_critical_chance=10
 store.longshot_knockback=30
 store.longshot_ability="None"
 store.longshot_lvl=1
+store.harvester_attack_damage=3
+store.harvester_attack_range=240
+store.harvester_reload_time=180
+store.harvester_critical_chance=1
+store.harvester_knockback=2
+store.harvester_ability="Harvest"
+store.harvester_lvl=1
+store.synccannon_attack_damage=3
+store.synccannon_attack_range=300
+store.synccannon_reload_time=75
+store.synccannon_critical_chance=2
+store.synccannon_knockback=8
+store.synccannon_ability="Synergy"
+store.synccannon_lvl=1
 //Inventory
 store.have_template=1 //ex: have_potions
 

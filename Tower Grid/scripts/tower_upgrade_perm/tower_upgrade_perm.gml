@@ -38,5 +38,13 @@ if show_menu_towers.tower="Longshot" and store.gems>=store.longshot_lvl*250 {
 store.longshot_attack_damage+=1 store.longshot_attack_range+=5 if store.longshot_critical_chance<25 {store.longshot_critical_chance+=.25}
 store.gems-=store.longshot_lvl*250 store.longshot_lvl+=1}
 
+if show_menu_towers.tower="Harvester" and store.gems>=store.harvester_lvl*250 {
+store.harvester_attack_damage+=.25 store.harvester_attack_range+=5 if store.harvester_critical_chance<20 {store.harvester_critical_chance+=.25}
+store.gems-=store.harvester_lvl*250 store.harvester_lvl+=1}
+
+if show_menu_towers.tower="Sync Cannon" and store.gems>=store.synccannon_lvl*250 {
+store.synccannon_attack_damage+=1 store.synccannon_attack_range+=5 if store.synccannon_critical_chance<25 {store.synccannon_critical_chance+=.25}
+store.gems-=store.synccannon_lvl*250 store.synccannon_lvl+=1}
+
 save_game()
 }

@@ -97,3 +97,25 @@ show_menu_towers.tower_critical_chance=string(store.longshot_critical_chance)+"%
 show_menu_towers.tower_knockback=string(store.longshot_knockback)+"ft"
 show_menu_towers.tower_ability=store.longshot_ability
 }
+
+if myID=10 {
+show_menu_towers.tower="Harvester"
+show_menu_towers.tower_desc="Generates XP by level each wave"
+show_menu_towers.tower_attack_damage=store.harvester_attack_damage
+show_menu_towers.tower_attack_range=string(store.harvester_attack_range)+"ft"
+show_menu_towers.tower_reload_time=string(store.harvester_reload_time/60)+"s"
+show_menu_towers.tower_critical_chance=string(store.harvester_critical_chance)+"%"
+show_menu_towers.tower_knockback=string(store.harvester_knockback)+"ft"
+show_menu_towers.tower_ability=store.harvester_ability
+}
+
+if myID=11 {
+show_menu_towers.tower="Sync Cannon"
+show_menu_towers.tower_desc="Attack multiplied by other Sync Cannons"
+show_menu_towers.tower_attack_damage=store.synccannon_attack_damage
+show_menu_towers.tower_attack_range=string(store.synccannon_attack_range)+"ft"
+show_menu_towers.tower_reload_time=string(store.synccannon_reload_time/60)+"s"
+show_menu_towers.tower_critical_chance=string(store.synccannon_critical_chance)+"%"
+show_menu_towers.tower_knockback=string(store.synccannon_knockback)+"ft"
+show_menu_towers.tower_ability=store.synccannon_ability
+}

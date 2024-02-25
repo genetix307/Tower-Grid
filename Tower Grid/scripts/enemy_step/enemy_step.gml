@@ -25,10 +25,12 @@ if wpn="transport" {repeat 5 instance_create_depth(x+random_range(-48,48),y+rand
 }
 
 //Maintenance
+if hud.game_paused=0 {
 if reload_counter>0 {reload_counter-=1*store.game_speed}
 if status_frozen>0 {status_frozen-=1}
 if status_knockback>0 {status_knockback-=1 y-=1}
 if status_knockback>4 {status_knockback-=4 y-=4}
+}
 //Killed
 if hp<=0 and no_drop=0 {
 repeat 4 instance_create_depth(x,y,depth,effect_schrapnel)

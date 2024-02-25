@@ -47,6 +47,8 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    //Gen Clouds & birds
    repeat 5 instance_create_depth(random_range(-800,-360),random(760),hud.depth,bird) //Create some birds
    if 4>random(10) {instance_create_depth(-1000,y,depth,effect_cloud_shadow)}
+   //Harvester XP gain
+   if instance_number(turret_harvester) {with turret_harvester alarm[1]=3}
 }
 }
 
