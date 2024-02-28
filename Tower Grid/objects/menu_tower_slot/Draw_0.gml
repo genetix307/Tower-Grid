@@ -49,7 +49,17 @@ if myID=9 //Longshot
 if store.best_stage>=80 {draw_sprite_ext(spr_turret_longshot,0,x,y+8,1,1,0,c_white,1)}
 if store.best_stage<80 {draw_sprite_ext(spr_turret_longshot,0,x,y+8,1,1,0,c_black,1) draw_text_color(x-30,y-18," Reach\nWave80",c_yellow,c_yellow,c_yellow,c_yellow,1)}
 }
-if myID>9 //LOCKED SLOT
+if myID=10 //Harvester
+{
+if store.best_stage>=90 {draw_sprite_ext(spr_turret_harvester,0,x,y+8,1,1,0,c_white,1)}
+if store.best_stage<90 {draw_sprite_ext(spr_turret_harvester,0,x,y+8,1,1,0,c_black,1) draw_text_color(x-30,y-18," Reach\nWave90",c_yellow,c_yellow,c_yellow,c_yellow,1)}
+}
+if myID=11 //Sync Cannon
+{
+if store.best_stage>=100 {draw_sprite_ext(spr_turret_synccannon,0,x,y+8,1,1,0,c_white,1)}
+if store.best_stage<100 {draw_sprite_ext(spr_turret_synccannon,0,x,y+8,1,1,0,c_black,1) draw_text_color(x-30,y-18," Reach\nWave100",c_yellow,c_yellow,c_yellow,c_yellow,1)}
+}
+if myID>11 //LOCKED SLOT
 {
 draw_sprite_ext(spr_show_lock,0,x,y,1,1,0,c_black,1)
 }

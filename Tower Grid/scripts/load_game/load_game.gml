@@ -81,6 +81,20 @@ store.longshot_critical_chance=ini_read_real( "save1", "longshot_critical_chance
 store.longshot_knockback=ini_read_real( "save1", "longshot_knockback",store.longshot_knockback);
 store.longshot_ability=ini_read_string( "save1", "longshot_ability",store.longshot_ability);
 store.longshot_lvl=ini_read_real( "save1", "longshot_lvl",store.longshot_lvl);
+store.harvester_attack_damage=ini_read_real( "save1", "harvester_attack_damage",store.harvester_attack_damage);
+store.harvester_attack_range=ini_read_real( "save1", "harvester_attack_range",store.harvester_attack_range);
+store.harvester_reload_time=ini_read_real( "save1", "harvester_reload_time",store.harvester_reload_time);
+store.harvester_critical_chance=ini_read_real( "save1", "harvester_critical_chance",store.harvester_critical_chance);
+store.harvester_knockback=ini_read_real( "save1", "harvester_knockback",store.harvester_knockback);
+store.harvester_ability=ini_read_string( "save1", "harvester_ability",store.harvester_ability);
+store.harvester_lvl=ini_read_real( "save1", "harvester_lvl",store.harvester_lvl);
+store.synccannon_attack_damage=ini_read_real( "save1", "synccannon_attack_damage",store.synccannon_attack_damage);
+store.synccannon_attack_range=ini_read_real( "save1", "synccannon_attack_range",store.synccannon_attack_range);
+store.synccannon_reload_time=ini_read_real( "save1", "synccannon_reload_time",store.synccannon_reload_time);
+store.synccannon_critical_chance=ini_read_real( "save1", "synccannon_critical_chance",store.synccannon_critical_chance);
+store.synccannon_knockback=ini_read_real( "save1", "synccannon_knockback",store.synccannon_knockback);
+store.synccannon_ability=ini_read_string( "save1", "synccannon_ability",store.synccannon_ability);
+store.synccannon_lvl=ini_read_real( "save1", "synccannon_lvl",store.synccannon_lvl);
 
 //Challenges
 store.challenge_a=ini_read_real( "save1", "challenge_a",store.challenge_a);
