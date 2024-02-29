@@ -13,5 +13,3 @@ draw_text_color(118,350,"Towers Upgraded: "+string(store.towers_upgraded),c_whit
 draw_text_color(118,380,"Challenges Completed: "+string(store.challenges_completed),c_white,c_white,c_silver,c_silver,1)
 
 
-
-

@@ -11,6 +11,7 @@ selected_turret=0
 towers_built=1
 arrow_fluctuate=6
 arrow_fluctuate_dir=0
+last_tower_sold=""
 alarm[0]=240 //Show tutorial
 
 repeat (70+random(50)) instance_create_depth(x,y,depth,trees)

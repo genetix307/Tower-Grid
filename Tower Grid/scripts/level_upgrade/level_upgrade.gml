@@ -50,6 +50,8 @@ if my_id=13 {
 store.perk_lvl_timejump+=1
 store.gold+=250*store.perk_lvl_timejump
 store.gold_earned+=250*store.perk_lvl_timejump
+store.hp+=store.perk_lvl_regen*10
+if instance_number(turret_harvester)>0 {with turret_harvester alarm[2]=3}
 store.current_stage+=10
 }
 if my_id=14 {

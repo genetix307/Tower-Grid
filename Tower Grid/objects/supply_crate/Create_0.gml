@@ -6,7 +6,7 @@ shiny = 0
 
 depth = -y
 
-reward_gold = ceil(10+random(store.current_stage))
+reward_gold = ceil(15+random(store.current_stage))
 reward_gems = ceil(10+random(store.current_stage/2))
 
 /*
