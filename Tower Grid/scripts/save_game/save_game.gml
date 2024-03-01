@@ -199,6 +199,7 @@ ini_write_real( "save1", "code_lotto", store.code_lotto);
 ini_write_real( "save1", "code_steelheart", store.code_steelheart);
 ini_write_real( "save1", "code_lonetower", store.code_lonetower);
 ini_write_real( "save1", "code_popcorn", store.code_popcorn);
+ini_write_real( "save1", "code_fivestars", store.code_fivestars);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);

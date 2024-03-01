@@ -8,6 +8,7 @@ depth = -y
 
 reward_gold = ceil(15+random(store.current_stage))
 reward_gems = ceil(10+random(store.current_stage/2))
+instance_create_depth(x,y,depth-10,effect_smoke_small)
 
 /*
 reward_item_name = choose("Bomb Arrows", "Crop Seeds", "Crop Seeds","Crop Seeds", "Ice Arrows","Potion","Potion","Potion","Smoke Arrows","Monster Lure","Shockwave Bomb","Shockwave Bomb","Focus Pill","Heavy Arrows","Chicken","Vampire Fang")

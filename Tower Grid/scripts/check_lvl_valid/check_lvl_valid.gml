@@ -29,7 +29,7 @@ if slot=9{
 if store.perk_lvl_snakeeyes>=5 {return false}
 }
 if slot=10 {
-if store.perk_lvl_wisdom>=3 {return false}
+if store.perk_lvl_wisdom>=4 {return false}
 }
 if slot=11 {
 if store.perk_lvl_killgold>=10 {return false}
@@ -42,6 +42,9 @@ if store.perk_lvl_timejump>=100 or store.best_stage<50 or store.current_stage>(s
 }
 if slot=14 {
 if store.perk_lvl_capitalgains>=10 or store.best_stage<40 {return false}
+}
+if slot=15 {
+if store.perk_lvl_upholder>=20 {return false}
 }
 
 return true

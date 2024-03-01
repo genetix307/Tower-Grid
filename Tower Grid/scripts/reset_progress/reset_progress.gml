@@ -198,4 +198,5 @@ store.code_lotto=0
 store.code_steelheart=0
 store.code_lonetower=0
 store.code_popcorn=0
+store.code_fivestars=0
 }

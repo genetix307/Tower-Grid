@@ -57,5 +57,8 @@ store.current_stage+=10
 if my_id=14 {
 store.perk_lvl_capitalgains+=1
 }
+if my_id=15 {
+store.perk_lvl_upholder+=1
+}
 
 }

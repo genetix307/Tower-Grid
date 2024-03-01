@@ -46,3 +46,11 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "fivestars" and store.code_fivestars= 0
+{
+reward = 500
+store.code_fivestars=1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}

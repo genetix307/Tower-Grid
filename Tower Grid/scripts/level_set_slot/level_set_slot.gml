@@ -74,7 +74,7 @@ if store.perk_lvl_killgold=0 {isNew=1}
 }
 if my_id=12 {
 myHeader="Wave Gold"
-myInfo="Gain +"+string((store.perk_lvl_wavegold+1)*3)+" Gold each day"
+myInfo="Gain +"+string((store.perk_lvl_wavegold+1)*3)+" Gold each wave"
 myLevel="Level "+string(store.perk_lvl_wavegold)+">"+string(store.perk_lvl_wavegold+1)
 if store.perk_lvl_wavegold=0 {isNew=1}
 }
@@ -86,10 +86,15 @@ if store.perk_lvl_timejump=0 {isNew=1}
 }
 if my_id=14 {
 myHeader="Capital gains"
-myInfo="Towers Sell for +"+string((store.perk_lvl_capitalgains+1)*50)+" Gold"
+myInfo="Towers Sell for +"+string((store.perk_lvl_capitalgains+1)*60)+" Gold"
 myLevel="Level "+string(store.perk_lvl_capitalgains)+">"+string(store.perk_lvl_capitalgains+1)
 if store.perk_lvl_capitalgains=0 {isNew=1}
 }
-
+if my_id=15 {
+myHeader="Upholder"
+myInfo="Get +"+string((store.perk_lvl_upholder+1)*5)+" Gold each\nwave if undamaged"
+myLevel="Level "+string(store.perk_lvl_upholder)+">"+string(store.perk_lvl_upholder+1)
+if store.perk_lvl_upholder=0 {isNew=1}
+}
 
 }
