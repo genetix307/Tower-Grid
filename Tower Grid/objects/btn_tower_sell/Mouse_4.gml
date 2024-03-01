@@ -7,6 +7,7 @@ if hud.selected_turret=myID {
 instance_create_depth(x,y,depth,turret_base)
 hud.game_paused=0
 //Will need to clear any vars for tower
+hud.last_tower_sold=show_status.myType
 instance_destroy()
 }
 }

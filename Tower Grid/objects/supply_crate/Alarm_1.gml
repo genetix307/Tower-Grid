@@ -4,7 +4,7 @@ if opened = 0
 opened = 1
 audio_play_sound(sfx_click,1,false)
 instance_create_depth(x,y-6,depth-10,effect_smoke_small)
-alarm[0] = 150*store.game_speed
+alarm[0] = 150/store.game_speed
 store.gold += reward_gold
 store.gold_earned+= reward_gold
 store.gems += reward_gems

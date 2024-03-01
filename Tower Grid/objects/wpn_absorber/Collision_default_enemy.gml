@@ -8,10 +8,9 @@ other.hp-=attack_damage*tmpCrit
 if other.boss=0 {other.status_knockback=knockback}
 instance_create_depth(other.x,other.y,depth,effect_smoke_small)
 instance_create_depth(other.x,other.y,depth,effect_show_damage).myDamage=round(attack_damage*tmpCrit)
-if 10+store.luck>random(100) {
+if 13+store.luck>random(100) {
 store.hp+=ceil(store.maxhp*.01)
 instance_create_depth(other.x-14,other.y-12,depth,effect_show_player_heal).myText=ceil(store.maxhp*.01)}
-if store.hp>store.maxhp {store.hp=store.maxhp}
 used=1
 }
 

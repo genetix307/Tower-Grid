@@ -9,7 +9,7 @@ if spawn_count>0
 	if store.current_stage>12 and 4>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_transport) spawn_break=1}
 	if store.current_stage>10 and 5>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_flamethrower) spawn_break=1}
 	if store.current_stage>24 and 5>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_chopper) spawn_break=1}
-	if store.current_stage>34 and 5>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_heavygunner) spawn_break=1}
+	if store.current_stage>34 and 5>random(100) and spawn_break=0 and store.hp>(store.maxhp*.50) {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_heavygunner) spawn_break=1}
 	if store.current_stage>50 and 6>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_red) spawn_break=1}
 	if store.current_stage>4 and 7>random(100) and spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank_green) spawn_break=1}
 	if spawn_break=0 {instance_create_depth(random_range(120,360),-300+random(100),depth,enemy_tank) spawn_break=1}
@@ -38,7 +38,6 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    store.gold_earned+=store.perm_wavegold+store.perk_lvl_wavegold
    //Regen 
    store.hp+=store.perk_lvl_regen
-   if store.hp>store.maxhp {store.hp=store.maxhp}
    challenge_survivor()
    //Coin Chest
    if store.current_stage>5 and instance_number(chest_coins)=0 and 25>random(100) {instance_create_depth(451,935,depth-10,chest_coins)}
@@ -48,7 +47,7 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    repeat 5 instance_create_depth(random_range(-800,-360),random(760),hud.depth,bird) //Create some birds
    if 4>random(10) {instance_create_depth(-1000,y,depth,effect_cloud_shadow)}
    //Harvester XP gain
-   if instance_number(turret_harvester) {with turret_harvester alarm[1]=3}
+   if instance_number(turret_harvester)>0 {with turret_harvester alarm[1]=3}
 }
 }
 
