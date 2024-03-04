@@ -18,4 +18,6 @@ if store.best_stage>=40 {draw_text_color(28,450,"Capital Gains: Towers Sell for 
 if store.best_stage<40 {draw_text_color(28,450,"????: Unlocks at Wave 40",c_white,c_white,c_silver,c_silver,1)}
 if store.best_stage>=50 {draw_text_color(28,480,"Time Jump: Skip 10 Waves and Gain X Gold",c_white,c_white,c_silver,c_silver,1)}
 if store.best_stage<50 {draw_text_color(28,480,"????: Unlocks at Wave 50",c_white,c_white,c_silver,c_silver,1)}
+if store.best_stage>=200 {draw_text_color(28,510,"Evil Creed: Enemies HP xX & Gem Drop +X",c_white,c_white,c_silver,c_silver,1)}
+if store.best_stage<200 {draw_text_color(28,510,"????: Unlocks at Wave 200",c_white,c_white,c_silver,c_silver,1)}
 }

@@ -12,6 +12,8 @@ if store.best_stage>=35 {spawn=choose(turret_cannon,turret_machinegun,turret_mis
 if store.best_stage>=40 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot)}
 if store.best_stage>=45 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester)}
 if store.best_stage>=50 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester,turret_synccannon)}
+if store.best_stage>=55 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester,turret_synccannon,turret_barrellauncher)}
+
 
 //Avoid building last tower sold
 while spawn=hud.last_tower_sold {
@@ -25,6 +27,7 @@ if store.best_stage>=35 {spawn=choose(turret_cannon,turret_machinegun,turret_mis
 if store.best_stage>=40 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot)}
 if store.best_stage>=45 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester)}
 if store.best_stage>=50 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester,turret_synccannon)}
+if store.best_stage>=55 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester,turret_synccannon,turret_barrellauncher)}
 }
 
 hud.last_tower_sold=""

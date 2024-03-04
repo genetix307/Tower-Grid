@@ -11,6 +11,7 @@ store.bonus_discord=ini_read_real( "save1", "bonus_discord",store.bonus_discord)
 store.ads_watched=ini_read_real( "save1", "ads_watched",store.ads_watched);
 store.effects=ini_read_real( "save1", "effects",store.effects);
 store.game_speed=ini_read_real( "save1", "game_speed",store.game_speed);
+store.auto_supply=ini_read_real( "save1", "auto_ supply",store.auto_supply);
 //store.show_healthbars=ini_read_real( "save1", "show_healthbars",store.show_healthbars);
 //store.auto_upgrade=ini_read_real( "save1", "auto_upgrade",store.auto_upgrade);
 //store.auto_event=ini_read_real( "save1", "auto_event",store.auto_event);
@@ -95,6 +96,13 @@ store.synccannon_critical_chance=ini_read_real( "save1", "synccannon_critical_ch
 store.synccannon_knockback=ini_read_real( "save1", "synccannon_knockback",store.synccannon_knockback);
 store.synccannon_ability=ini_read_string( "save1", "synccannon_ability",store.synccannon_ability);
 store.synccannon_lvl=ini_read_real( "save1", "synccannon_lvl",store.synccannon_lvl);
+store.barrellauncher_attack_damage=ini_read_real( "save1", "barrellauncher_attack_damage",store.barrellauncher_attack_damage);
+store.barrellauncher_attack_range=ini_read_real( "save1", "barrellauncher_attack_range",store.barrellauncher_attack_range);
+store.barrellauncher_reload_time=ini_read_real( "save1", "barrellauncher_reload_time",store.barrellauncher_reload_time);
+store.barrellauncher_critical_chance=ini_read_real( "save1", "barrellauncher_critical_chance",store.barrellauncher_critical_chance);
+store.barrellauncher_knockback=ini_read_real( "save1", "barrellauncher_knockback",store.barrellauncher_knockback);
+store.barrellauncher_ability=ini_read_string( "save1", "barrellauncher_ability",store.barrellauncher_ability);
+store.barrellauncher_lvl=ini_read_real( "save1", "barrellauncher_lvl",store.barrellauncher_lvl);
 
 //Challenges
 store.challenge_a=ini_read_real( "save1", "challenge_a",store.challenge_a);
@@ -197,6 +205,7 @@ store.code_steelheart=ini_read_real( "save1", "code_steelheart",store.code_steel
 store.code_lonetower=ini_read_real( "save1", "code_lonetower",store.code_lonetower);
 store.code_popcorn=ini_read_real( "save1", "code_popcorn",store.code_popcorn);
 store.code_fivestars=ini_read_real( "save1", "code_fivestars",store.code_fivestars);
+store.code_boom=ini_read_real( "save1", "code_boom",store.code_boom);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);

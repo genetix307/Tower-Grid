@@ -46,5 +46,9 @@ if show_menu_towers.tower="Sync Cannon" and store.gems>=store.synccannon_lvl*250
 store.synccannon_attack_damage+=.5 store.synccannon_attack_range+=5 if store.synccannon_critical_chance<25 {store.synccannon_critical_chance+=.25}
 store.gems-=store.synccannon_lvl*250 store.synccannon_lvl+=1}
 
+if show_menu_towers.tower="Barrel Launcher" and store.gems>=store.barrellauncher_lvl*250 {
+store.barrellauncher_attack_damage+=.25 store.barrellauncher_attack_range+=5 if store.barrellauncher_critical_chance<25 {store.barrellauncher_critical_chance+=.25}
+store.gems-=store.barrellauncher_lvl*250 store.barrellauncher_lvl+=1}
+
 save_game()
 }

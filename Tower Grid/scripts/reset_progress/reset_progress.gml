@@ -14,6 +14,7 @@ store.sfx_volume=1
 store.bgm_volume=1
 store.bonus_discord=0
 store.effects=1
+store.auto_supply=0
 //store.auto_perk=0
 //store.show_healthbars=0
 //store.auto_upgrade=0
@@ -111,7 +112,7 @@ store.toxiccannon_critical_chance=1
 store.toxiccannon_knockback=2
 store.toxiccannon_ability="Radiate"
 store.toxiccannon_lvl=1
-store.hammer_attack_damage=8
+store.hammer_attack_damage=10
 store.hammer_attack_range=300
 store.hammer_reload_time=100
 store.hammer_critical_chance=2
@@ -146,6 +147,13 @@ store.synccannon_critical_chance=2
 store.synccannon_knockback=8
 store.synccannon_ability="Synergy"
 store.synccannon_lvl=1
+store.barrellauncher_attack_damage=1
+store.barrellauncher_attack_range=275
+store.barrellauncher_reload_time=140
+store.barrellauncher_critical_chance=1
+store.barrellauncher_knockback=10
+store.barrellauncher_ability="Splash"
+store.barrellauncher_lvl=1
 //Inventory
 store.have_template=1 //ex: have_potions
 
@@ -199,4 +207,5 @@ store.code_steelheart=0
 store.code_lonetower=0
 store.code_popcorn=0
 store.code_fivestars=0
+store.code_boom=0
 }

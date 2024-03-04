@@ -12,4 +12,5 @@ if myType="Absorber" {attack_damage+=1 attack_range+=10 if critical_chance<20 {c
 if myType="Longshot" {attack_damage+=3 attack_range+=10 if critical_chance<25 {critical_chance+=.25}}
 if myType="Harvester" {attack_damage+=.5 attack_range+=10 if critical_chance<20 {critical_chance+=.25}}
 if myType="Sync Cannon" {attack_damage+=1 attack_range+=10 if critical_chance<20 {critical_chance+=.25}}
+if myType="Barrel Launcher" {attack_damage+=.5 attack_range+=10 if critical_chance<20 {critical_chance+=.25}}
 }

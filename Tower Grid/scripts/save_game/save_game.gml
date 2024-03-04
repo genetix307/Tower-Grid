@@ -11,6 +11,7 @@ ini_write_real( "save1", "bonus_discord", store.bonus_discord);
 ini_write_real( "save1", "ads_watched", store.ads_watched);
 ini_write_real( "save1", "effects", store.effects);
 ini_write_real( "save1", "game_speed", store.game_speed);
+ini_write_real( "save1", "auto_supply", store.auto_supply);
 //ini_write_real( "save1", "show_healthbars", store.show_healthbars);
 //ini_write_real( "save1", "auto_upgrade", store.auto_upgrade);
 //ini_write_real( "save1", "auto_guardian", store.auto_guardian);
@@ -96,6 +97,13 @@ ini_write_real( "save1", "synccannon_critical_chance", store.synccannon_critical
 ini_write_real( "save1", "synccannon_knockback", store.synccannon_knockback);
 ini_write_string( "save1", "synccannon_ability", store.synccannon_ability);
 ini_write_real( "save1", "synccannon_lvl", store.synccannon_lvl);
+ini_write_real( "save1", "barrellauncher_attack_damage", store.barrellauncher_attack_damage);
+ini_write_real( "save1", "barrellauncher_attack_range", store.barrellauncher_attack_range);
+ini_write_real( "save1", "barrellauncher_reload_time", store.barrellauncher_reload_time);
+ini_write_real( "save1", "barrellauncher_critical_chance", store.barrellauncher_critical_chance);
+ini_write_real( "save1", "barrellauncher_knockback", store.barrellauncher_knockback);
+ini_write_string( "save1", "barrellauncher_ability", store.barrellauncher_ability);
+ini_write_real( "save1", "barrellauncher_lvl", store.barrellauncher_lvl);
 
 //Challenges
 ini_write_real( "save1", "challenge_a", store.challenge_a);
@@ -200,6 +208,7 @@ ini_write_real( "save1", "code_steelheart", store.code_steelheart);
 ini_write_real( "save1", "code_lonetower", store.code_lonetower);
 ini_write_real( "save1", "code_popcorn", store.code_popcorn);
 ini_write_real( "save1", "code_fivestars", store.code_fivestars);
+ini_write_real( "save1", "code_boom", store.code_boom);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);

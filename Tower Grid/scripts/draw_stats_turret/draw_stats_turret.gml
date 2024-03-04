@@ -13,6 +13,7 @@ if myType="Absorber" {draw_sprite_ext(spr_turret_absorber,image_index,392,103,1,
 if myType="Longshot" {draw_sprite_ext(spr_turret_longshot,image_index,392,103,1,1,180,c_white,1) draw_text_color(x-178,310,"Long Range Heavy Precision Cannon",c_yellow,c_yellow,c_yellow,c_yellow,1)}
 if myType="Harvester" {draw_sprite_ext(spr_turret_harvester,image_index,392,103,1,1,180,c_white,1) draw_text_color(x-178,310,"Generates XP by level each wave",c_yellow,c_yellow,c_yellow,c_yellow,1)}
 if myType="Sync Cannon" {draw_sprite_ext(spr_turret_synccannon,image_index,392,103,1,1,180,c_white,1) draw_text_color(x-178,310,"Attack Damage multiplied by\neach other Sync Cannon",c_yellow,c_yellow,c_yellow,c_yellow,1)}
+if myType="Barrel Launcher" {draw_sprite_ext(spr_turret_barrellauncher,image_index,392,103,1,1,180,c_white,1) draw_text_color(x-178,310,"Fires explosive barrels that\ncause area damage",c_yellow,c_yellow,c_yellow,c_yellow,1)}
 }
 
 

@@ -44,7 +44,10 @@ if slot=14 {
 if store.perk_lvl_capitalgains>=10 or store.best_stage<40 {return false}
 }
 if slot=15 {
-if store.perk_lvl_upholder>=20 {return false}
+if store.perk_lvl_upholder>=20 or store.best_stage<30 {return false}
+}
+if slot=16 {
+if store.perk_lvl_evilcreed>=3 or store.best_stage<200 {return false}
 }
 
 return true

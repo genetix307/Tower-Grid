@@ -60,5 +60,8 @@ store.perk_lvl_capitalgains+=1
 if my_id=15 {
 store.perk_lvl_upholder+=1
 }
+if my_id=16 {
+store.perk_lvl_evilcreed+=1
+}
 
 }

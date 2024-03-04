@@ -9,4 +9,7 @@ if show_menu_towers.tower="Toxic Cannon" {if store.gems>=store.toxiccannon_lvl*2
 if show_menu_towers.tower="Hammer" {if store.gems>=store.hammer_lvl*250 {greyed_out=0} cost=store.hammer_lvl*250}
 if show_menu_towers.tower="Absorber" {if store.gems>=store.absorber_lvl*250 {greyed_out=0} cost=store.absorber_lvl*250}
 if show_menu_towers.tower="Longshot" {if store.gems>=store.longshot_lvl*250 {greyed_out=0} cost=store.longshot_lvl*250}
+if show_menu_towers.tower="Harvester" {if store.gems>=store.harvester_lvl*250 {greyed_out=0} cost=store.harvester_lvl*250}
+if show_menu_towers.tower="Sync Cannon" {if store.gems>=store.synccannon_lvl*250 {greyed_out=0} cost=store.synccannon_lvl*250}
+if show_menu_towers.tower="Barrel Launcher" {if store.gems>=store.barrellauncher_lvl*250 {greyed_out=0} cost=store.barrellauncher_lvl*250}
 if show_menu_towers.tower="" {cost=0}

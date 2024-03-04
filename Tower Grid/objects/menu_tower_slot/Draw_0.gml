@@ -59,7 +59,12 @@ if myID=11 //Sync Cannon
 if store.best_stage>=50 {draw_sprite_ext(spr_turret_synccannon,0,x,y+8,1,1,0,c_white,1)}
 if store.best_stage<50 {draw_sprite_ext(spr_turret_synccannon,0,x,y+8,1,1,0,c_black,1) draw_text_color(x-30,y-18," Reach\nWave 50",c_yellow,c_yellow,c_yellow,c_yellow,1)}
 }
-if myID>11 //LOCKED SLOT
+if myID=12 //Barrel Launcher
+{
+if store.best_stage>=55 {draw_sprite_ext(spr_turret_barrellauncher,0,x,y+8,1,1,0,c_white,1)}
+if store.best_stage<55 {draw_sprite_ext(spr_turret_barrellauncher,0,x,y+8,1,1,0,c_black,1) draw_text_color(x-30,y-18," Reach\nWave 55",c_yellow,c_yellow,c_yellow,c_yellow,1)}
+}
+if myID>12 //LOCKED SLOT
 {
 draw_sprite_ext(spr_show_lock,0,x,y,1,1,0,c_black,1)
 }

@@ -10,6 +10,7 @@ instance_create_depth(130,890,depth-10,btn_abandon_run)
 instance_create_depth(162,360,depth-10,btn_sfx)
 instance_create_depth(162,420,depth-10,btn_bgm)
 instance_create_depth(312,360,depth-10,btn_set_colorscheme)
+instance_create_depth(312,420,depth-10,btn_auto_supply)
 //Show Challenges
 instance_create_depth(241,134,depth-10,btn_challenge).my_slot=0
 instance_create_depth(241,204,depth-10,btn_challenge).my_slot=1

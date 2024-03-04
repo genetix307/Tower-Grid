@@ -40,6 +40,8 @@ if boss=1 {store.bosses_slain+=1 store.gold+=5+store.perk_lvl_killgold store.gol
 store.enemies_killed_run+=1
 //Plunder
 if store.perk_lvl_plunder*2>random(100) {store.gems+=1 store.gems_earned+=1 store.gems_earned_run+=1 instance_create_depth(x,y-8,depth-100,show_get_gem)}
+//Evil Creed
+if store.perk_lvl_evilcreed>0 {store.gems+=store.perk_lvl_evilcreed store.gems_earned+=store.perk_lvl_evilcreed store.gems_earned_run+=store.perk_lvl_evilcreed instance_create_depth(x,y-8,depth-100,show_get_gem)}
 instance_destroy()
 }
 if hp<=0 and no_drop=1 {instance_destroy()}

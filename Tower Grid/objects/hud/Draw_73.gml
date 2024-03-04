@@ -15,7 +15,7 @@ draw_set_color(c_white)
 draw_text(cx+8,cy+48,"Wave "+string(store.current_stage))
 
 //Draw next tower cost
-if instance_number(default_tower)<6 {draw_text_color(cx+7,cy+942,"Next Tower Cost x"+string(25*hud.towers_built),c_white,c_white,c_silver,c_silver,.9)}
+draw_text_color(cx+8,cy+942,"Next Tower Cost x"+string(25*hud.towers_built),c_white,c_white,c_silver,c_silver,.9)
 
 //Draw Current Stage Banner
 /*
