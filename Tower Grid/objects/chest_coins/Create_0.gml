@@ -1,4 +1,9 @@
 // Genetix Studio
+if store.luck>random(100) { //Replace with Rare Chest
+	instance_create_depth(x,y,depth,rare_chest_coins)
+	instance_destroy()
+}
+
 depth=10009
 ad_load_interstitial()
 

@@ -12,6 +12,7 @@ store.ads_watched=ini_read_real( "save1", "ads_watched",store.ads_watched);
 store.effects=ini_read_real( "save1", "effects",store.effects);
 store.game_speed=ini_read_real( "save1", "game_speed",store.game_speed);
 store.auto_supply=ini_read_real( "save1", "auto_ supply",store.auto_supply);
+store.favorite_tower=ini_read_string( "save1", "favorite_tower",store.favorite_tower);
 //store.show_healthbars=ini_read_real( "save1", "show_healthbars",store.show_healthbars);
 //store.auto_upgrade=ini_read_real( "save1", "auto_upgrade",store.auto_upgrade);
 //store.auto_event=ini_read_real( "save1", "auto_event",store.auto_event);
@@ -206,6 +207,7 @@ store.code_lonetower=ini_read_real( "save1", "code_lonetower",store.code_lonetow
 store.code_popcorn=ini_read_real( "save1", "code_popcorn",store.code_popcorn);
 store.code_fivestars=ini_read_real( "save1", "code_fivestars",store.code_fivestars);
 store.code_boom=ini_read_real( "save1", "code_boom",store.code_boom);
+store.code_runknightrun=ini_read_real( "save1", "code_runknightrun",store.code_runknightrun);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);

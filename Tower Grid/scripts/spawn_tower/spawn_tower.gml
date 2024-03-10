@@ -30,6 +30,22 @@ if store.best_stage>=50 {spawn=choose(turret_cannon,turret_machinegun,turret_mis
 if store.best_stage>=55 {spawn=choose(turret_cannon,turret_machinegun,turret_missilelauncher,turret_quadgun,turret_freezeray,turret_toxiccannon,turret_hammer,turret_absorber,turret_longshot,turret_harvester,turret_synccannon,turret_barrellauncher)}
 }
 
+//Try to spawn Favorite tower
+if 5+store.luck>random(100) and instance_number(default_tower)=0 {
+if store.favorite_tower="Cannon" {spawn=turret_cannon}
+if store.favorite_tower="Machine Gun" {spawn=turret_machinegun}
+if store.favorite_tower="Missile Launcher" {spawn=turret_missilelauncher}
+if store.favorite_tower="Quad Gun" {spawn=turret_quadgun}
+if store.favorite_tower="Freeze Ray" {spawn=turret_freezeray}
+if store.favorite_tower="Toxic Cannon" {spawn=turret_toxiccannon}
+if store.favorite_tower="Hammer" {spawn=turret_hammer}
+if store.favorite_tower="Absorber" {spawn=turret_absorber}
+if store.favorite_tower="Longshot" {spawn=turret_longshot}
+if store.favorite_tower="Harvester" {spawn=turret_harvester}
+if store.favorite_tower="Sync Cannon" {spawn=turret_synccannon}
+if store.favorite_tower="Barrel Launcher" {spawn=turret_barrellauncher}
+}
+
 hud.last_tower_sold=""
 instance_create_depth(x,y,depth-110,spawn)
 

@@ -22,4 +22,5 @@ draw_set_font(font_med_hud)
 draw_text(216,883,string(store.gems))
 draw_sprite(spr_show_gem,0,202,891)
 
+draw_text_color(78,820,"Favorite tower has a chance based on Luck\n stat of being your starting tower each run!",c_yellow,c_yellow,c_orange,c_orange,1)
 

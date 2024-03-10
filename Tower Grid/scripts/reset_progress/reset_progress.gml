@@ -15,6 +15,7 @@ store.bgm_volume=1
 store.bonus_discord=0
 store.effects=1
 store.auto_supply=0
+store.favorite_tower=""
 //store.auto_perk=0
 //store.show_healthbars=0
 //store.auto_upgrade=0
@@ -208,4 +209,5 @@ store.code_lonetower=0
 store.code_popcorn=0
 store.code_fivestars=0
 store.code_boom=0
+store.code_runknightrun=0
 }

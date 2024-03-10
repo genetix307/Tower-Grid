@@ -36,7 +36,7 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
   
    
    //Wave Gems
-   store.gold+=store.perm_wavegold+(3*store.perk_lvl_wavegold)
+   store.gold+=store.perm_wavegold+(5*store.perk_lvl_wavegold)
    store.gold_earned+=store.perm_wavegold+store.perk_lvl_wavegold
    //Upholder Perk
    if hit_this_wave>0 { //Not hit

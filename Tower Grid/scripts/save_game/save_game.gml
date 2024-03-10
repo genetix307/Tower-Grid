@@ -12,6 +12,7 @@ ini_write_real( "save1", "ads_watched", store.ads_watched);
 ini_write_real( "save1", "effects", store.effects);
 ini_write_real( "save1", "game_speed", store.game_speed);
 ini_write_real( "save1", "auto_supply", store.auto_supply);
+ini_write_string( "save1", "favorite_tower", store.favorite_tower);
 //ini_write_real( "save1", "show_healthbars", store.show_healthbars);
 //ini_write_real( "save1", "auto_upgrade", store.auto_upgrade);
 //ini_write_real( "save1", "auto_guardian", store.auto_guardian);
@@ -209,6 +210,7 @@ ini_write_real( "save1", "code_lonetower", store.code_lonetower);
 ini_write_real( "save1", "code_popcorn", store.code_popcorn);
 ini_write_real( "save1", "code_fivestars", store.code_fivestars);
 ini_write_real( "save1", "code_boom", store.code_boom);
+ini_write_real( "save1", "code_runknightrun", store.code_runknightrun);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);

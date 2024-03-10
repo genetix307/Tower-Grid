@@ -74,7 +74,7 @@ if store.perk_lvl_killgold=0 {isNew=1}
 }
 if my_id=12 {
 myHeader="Wave Gold"
-myInfo="Gain +"+string((store.perk_lvl_wavegold+1)*3)+" Gold each wave"
+myInfo="Gain +"+string((store.perk_lvl_wavegold+1)*5)+" Gold each wave"
 myLevel="Level "+string(store.perk_lvl_wavegold)+">"+string(store.perk_lvl_wavegold+1)
 if store.perk_lvl_wavegold=0 {isNew=1}
 }
