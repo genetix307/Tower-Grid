@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "turret_machinegun",
   "spriteId": {
-    "name": "spr_turret_machinegun",
-    "path": "sprites/spr_turret_machinegun/spr_turret_machinegun.yy",
+    "name": "spr_turret_machinegun2",
+    "path": "sprites/spr_turret_machinegun2/spr_turret_machinegun2.yy",
   },
   "solid": false,
   "visible": true,

@@ -9,6 +9,4 @@ knockback=store.cannon_knockback
 ability=store.cannon_ability
 critical_chance=store.cannon_critical_chance+(store.perk_lvl_sharpshooter)
 cost=10
-
-
-
+image_speed=0

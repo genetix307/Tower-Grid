@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "turret_freezeray",
   "spriteId": {
-    "name": "spr_turret_freezeray",
-    "path": "sprites/spr_turret_freezeray/spr_turret_freezeray.yy",
+    "name": "spr_turret_freezeray2",
+    "path": "sprites/spr_turret_freezeray2/spr_turret_freezeray2.yy",
   },
   "solid": false,
   "visible": true,

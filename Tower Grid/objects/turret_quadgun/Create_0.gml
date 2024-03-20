@@ -9,9 +9,4 @@ knockback=store.quadgun_knockback
 ability=store.quadgun_ability
 critical_chance=store.quadgun_critical_chance+(store.perk_lvl_sharpshooter)
 cost=10
-
-
-
-
-
-
+image_speed=0

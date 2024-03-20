@@ -5,7 +5,8 @@ if other.shield<=0 {
 other.hp-=attack_damage*tmpCrit
 if other.boss=0 {other.status_knockback=knockback other.status_frozen=150}
 if other.boss=1 {instance_create_depth(x-20,y-21,depth,effect_show_immune)}
-instance_create_depth(x,y,depth,effect_smoke_small)
+//instance_create_depth(x,y,depth,effect_smoke_small)
+instance_create_depth(x,y-15,depth,effect_flash_tower_shot).image_angle=image_angle+90
 instance_create_depth(x,y-8,depth,effect_show_damage).myDamage=round(attack_damage*tmpCrit)
 audio_play_sound(sfx_freeze,1,false)
 instance_destroy()

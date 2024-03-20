@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "turret_missilelauncher",
   "spriteId": {
-    "name": "spr_turret_missilelauncher",
-    "path": "sprites/spr_turret_missilelauncher/spr_turret_missilelauncher.yy",
+    "name": "spr_turret_missilelauncher2",
+    "path": "sprites/spr_turret_missilelauncher2/spr_turret_missilelauncher2.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,6 +33,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":53,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

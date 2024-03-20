@@ -9,6 +9,4 @@ knockback=store.missilelauncher_knockback
 ability=store.missilelauncher_ability
 critical_chance=store.missilelauncher_critical_chance+(store.perk_lvl_sharpshooter)
 cost=10
-
-
-
+image_speed=0

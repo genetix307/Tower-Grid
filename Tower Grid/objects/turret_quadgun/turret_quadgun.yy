@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "turret_quadgun",
   "spriteId": {
-    "name": "spr_turret_quadgun",
-    "path": "sprites/spr_turret_quadgun/spr_turret_quadgun.yy",
+    "name": "spr_turret_quadgun2",
+    "path": "sprites/spr_turret_quadgun2/spr_turret_quadgun2.yy",
   },
   "solid": false,
   "visible": true,

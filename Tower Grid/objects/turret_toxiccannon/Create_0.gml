@@ -9,6 +9,4 @@ knockback=store.toxiccannon_knockback
 ability=store.toxiccannon_ability
 critical_chance=store.toxiccannon_critical_chance+(store.perk_lvl_sharpshooter)
 cost=10
-
-
-
+weapon=1

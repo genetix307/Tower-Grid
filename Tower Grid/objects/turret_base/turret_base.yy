@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "turret_base",
   "spriteId": {
-    "name": "spr_turret_base",
-    "path": "sprites/spr_turret_base/spr_turret_base.yy",
+    "name": "spr_turret_base2",
+    "path": "sprites/spr_turret_base2/spr_turret_base2.yy",
   },
   "solid": false,
   "visible": true,

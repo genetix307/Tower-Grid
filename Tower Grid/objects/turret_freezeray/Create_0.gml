@@ -9,6 +9,4 @@ knockback=store.freezeray_knockback
 ability=store.freezeray_ability
 critical_chance=store.freezeray_critical_chance+(store.perk_lvl_sharpshooter)
 cost=10
-
-
-
+image_speed=0

@@ -1,0 +1,10 @@
+depth=-y
+//direction=-115+random(30)
+direction=-115+random(30)
+speed=3+random(2)
+image_angle=direction
+image_index=irandom_range(0,image_number)
+image_speed=0
+//image_xscale=.50+random(.25)
+//image_yscale=image_xscale
+image_alpha=1.5
