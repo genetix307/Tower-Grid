@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "challenge_builder",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Challenges",
-    "path": "folders/Scripts/Challenges.yy",
+  "$GMScript":"",
+  "%Name":"challenge_builder",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"challenge_builder",
+  "parent":{
+    "name":"Challenges",
+    "path":"folders/Scripts/Challenges.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

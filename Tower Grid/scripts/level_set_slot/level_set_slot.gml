@@ -92,7 +92,7 @@ if store.perk_lvl_capitalgains=0 {isNew=1}
 }
 if my_id=15 {
 myHeader="Upholder"
-myInfo="Get +"+string((store.perk_lvl_upholder+1)*5)+" Gold each\nwave if undamaged"
+myInfo="Get +"+string((store.perk_lvl_upholder+1)*10)+" Gold each\nwave if undamaged"
 myLevel="Level "+string(store.perk_lvl_upholder)+">"+string(store.perk_lvl_upholder+1)
 if store.perk_lvl_upholder=0 {isNew=1}
 }

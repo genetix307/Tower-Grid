@@ -2,6 +2,7 @@
 if store.luck>random(100) { //Replace with Rare Chest
 	instance_create_depth(x,y,depth,rare_chest_coins)
 	instance_destroy()
+	exit
 }
 
 depth=10009

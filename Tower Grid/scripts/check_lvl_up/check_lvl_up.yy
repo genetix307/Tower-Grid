@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "check_lvl_up",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Perks",
-    "path": "folders/Scripts/Perks.yy",
+  "$GMScript":"",
+  "%Name":"check_lvl_up",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_lvl_up",
+  "parent":{
+    "name":"Perks",
+    "path":"folders/Scripts/Perks.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

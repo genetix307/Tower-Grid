@@ -40,7 +40,7 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    store.gold_earned+=store.perm_wavegold+store.perk_lvl_wavegold
    //Upholder Perk
    if hit_this_wave>0 { //Not hit
-   store.gold+=5*store.perk_lvl_upholder
+   store.gold+=10*store.perk_lvl_upholder
    store.gold_earned+=5*store.perk_lvl_upholder
    }
    //Regen 

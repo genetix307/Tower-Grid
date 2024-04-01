@@ -9,6 +9,7 @@ if store.hp>store.maxhp {store.hp=store.maxhp}
 if my_id=2 {
 store.perk_lvl_ironwalls+=1
 store.maxhp+=store.perk_lvl_ironwalls*10
+store.hp+=store.perk_lvl_ironwalls*10
 }
 if my_id=3 {
 store.perk_lvl_regen+=1

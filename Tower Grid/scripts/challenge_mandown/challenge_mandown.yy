@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "challenge_mandown",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Challenges",
-    "path": "folders/Scripts/Challenges.yy",
+  "$GMScript":"",
+  "%Name":"challenge_mandown",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"challenge_mandown",
+  "parent":{
+    "name":"Challenges",
+    "path":"folders/Scripts/Challenges.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

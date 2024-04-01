@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "challenge_brickroad",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Challenges",
-    "path": "folders/Scripts/Challenges.yy",
+  "$GMScript":"",
+  "%Name":"challenge_brickroad",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"challenge_brickroad",
+  "parent":{
+    "name":"Challenges",
+    "path":"folders/Scripts/Challenges.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
