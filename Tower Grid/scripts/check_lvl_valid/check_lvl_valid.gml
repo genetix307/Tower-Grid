@@ -49,6 +49,9 @@ if store.perk_lvl_upholder>=20 or store.best_stage<30 {return false}
 if slot=16 {
 if store.perk_lvl_evilcreed>=3 or store.best_stage<200 {return false}
 }
+if slot=17 {
+if store.perk_lvl_recharge>=5 or store.best_stage<20 {return false}
+}
 
 return true
 }

@@ -102,5 +102,11 @@ myInfo="Enemies HP & Gem Drop x"+string((store.perk_lvl_evilcreed+1))
 myLevel="Level "+string(store.perk_lvl_evilcreed)+">"+string(store.perk_lvl_evilcreed+1)
 if store.perk_lvl_evilcreed=0 {isNew=1}
 }
+if my_id=17 {
+myHeader="Recharge"
+myInfo="Heal +"+string((store.perk_lvl_recharge+1)*2)+" HP each\nwave if undamaged"
+myLevel="Level "+string(store.perk_lvl_recharge)+">"+string(store.perk_lvl_recharge+1)
+if store.perk_lvl_recharge=0 {isNew=1}
+}
 
 }

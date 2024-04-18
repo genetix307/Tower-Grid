@@ -158,7 +158,6 @@ store.lvl_perm_gamespeed=ini_read_real( "save1", "lvl_perm_gamespeed",store.lvl_
 //Inventory
 store.have_template=ini_read_real( "save1", "have_template",store.have_template);
 //cards 
-/*
 store.slot_2_unlocked=ini_read_real( "save1", "slot_2_unlocked",store.slot_2_unlocked);
 store.slot_3_unlocked=ini_read_real( "save1", "slot_3_unlocked",store.slot_3_unlocked);
 store.slot_4_unlocked=ini_read_real( "save1", "slot_4_unlocked",store.slot_4_unlocked);
@@ -187,7 +186,6 @@ store.card_evilcreed=ini_read_real( "save1", "card_evilcreed",store.card_evilcre
 store.card_lvl_evilcreed=ini_read_real( "save1", "card_lvl_evilcreed",store.card_lvl_evilcreed);
 store.card_mastery=ini_read_real( "save1", "card_mastery",store.card_mastery);
 store.card_lvl_mastery=ini_read_real( "save1", "card_lvl_mastery",store.card_lvl_mastery);
-*/
 //Statistics
 store.best_stage=ini_read_real( "save1", "best_stage",store.best_stage);
 store.total_runs=ini_read_real( "save1", "total_runs",store.total_runs);
@@ -207,6 +205,7 @@ store.code_lonetower=ini_read_real( "save1", "code_lonetower",store.code_lonetow
 store.code_popcorn=ini_read_real( "save1", "code_popcorn",store.code_popcorn);
 store.code_fivestars=ini_read_real( "save1", "code_fivestars",store.code_fivestars);
 store.code_boom=ini_read_real( "save1", "code_boom",store.code_boom);
+store.code_warzone=ini_read_real( "save1", "code_warzone",store.code_warzone);
 store.code_runknightrun=ini_read_real( "save1", "code_runknightrun",store.code_runknightrun);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);

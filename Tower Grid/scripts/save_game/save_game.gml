@@ -160,7 +160,6 @@ ini_write_real( "save1", "lvl_perm_gamespeed", store.lvl_perm_gamespeed);
 //Inventory
 ini_write_real( "save1", "have_template", store.have_template);
 //cards 
-/*
 ini_write_real( "save1", "slot_2_unlocked", store.slot_2_unlocked);
 ini_write_real( "save1", "slot_3_unlocked", store.slot_3_unlocked);
 ini_write_real( "save1", "slot_4_unlocked", store.slot_4_unlocked);
@@ -189,7 +188,7 @@ ini_write_real( "save1", "card_evilcreed", store.card_evilcreed);
 ini_write_real( "save1", "card_lvl_evilcreed", store.card_lvl_evilcreed);
 ini_write_real( "save1", "card_mastery", store.card_mastery);
 ini_write_real( "save1", "card_lvl_mastery", store.card_lvl_mastery);
-*/
+
 //Statistics
 ini_write_real( "save1", "best_stage", store.best_stage);
 ini_write_real( "save1", "total_runs", store.total_runs);
@@ -211,6 +210,7 @@ ini_write_real( "save1", "code_popcorn", store.code_popcorn);
 ini_write_real( "save1", "code_fivestars", store.code_fivestars);
 ini_write_real( "save1", "code_boom", store.code_boom);
 ini_write_real( "save1", "code_runknightrun", store.code_runknightrun);
+ini_write_real( "save1", "code_warzone", store.code_warzone);
 //Ingame Stats
 ini_write_real( "save1", "gold", store.gold);
 ini_write_real( "save1", "current_stage", store.current_stage);

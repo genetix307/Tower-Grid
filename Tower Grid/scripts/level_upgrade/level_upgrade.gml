@@ -64,5 +64,8 @@ store.perk_lvl_upholder+=1
 if my_id=16 {
 store.perk_lvl_evilcreed+=1
 }
+if my_id=17 {
+store.perk_lvl_recharge+=1
+}
 
 }

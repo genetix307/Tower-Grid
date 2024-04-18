@@ -38,10 +38,11 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    //Wave Gems
    store.gold+=store.perm_wavegold+(5*store.perk_lvl_wavegold)
    store.gold_earned+=store.perm_wavegold+store.perk_lvl_wavegold
-   //Upholder Perk
+   //Upholder & Recharge Perk
    if hit_this_wave>0 { //Not hit
    store.gold+=10*store.perk_lvl_upholder
    store.gold_earned+=5*store.perk_lvl_upholder
+   store.hp+=store.perk_lvl_recharge*2 
    }
    //Regen 
    store.hp+=store.perk_lvl_regen
