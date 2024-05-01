@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"btn_small_tab",
-    "path":"sprites/btn_small_tab/btn_small_tab.yy",
+    "name":"spr_card",
+    "path":"sprites/spr_card/spr_card.yy",
   },
   "spriteMaskId":null,
   "visible":true,

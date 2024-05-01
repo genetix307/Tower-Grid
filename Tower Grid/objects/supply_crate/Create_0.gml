@@ -10,6 +10,13 @@ reward_gold = ceil(15+random(store.current_stage))
 reward_gems = ceil(10+random(store.current_stage/2))
 instance_create_depth(x,y,depth-10,effect_smoke_small)
 
+//Extra Rations Card
+   if store.card_slot_1 = 8 or store.card_slot_2 = 8 or store.card_slot_3 = 8 or store.card_slot_4 = 8
+	{
+		reward_gold+=round(reward_gold*(store.card_lvl_extrarations*.50))
+		reward_gems+=round(reward_gems*(store.card_lvl_extrarations*.50))
+	}
+
 /*
 reward_item_name = choose("Bomb Arrows", "Crop Seeds", "Crop Seeds","Crop Seeds", "Ice Arrows","Potion","Potion","Potion","Smoke Arrows","Monster Lure","Shockwave Bomb","Shockwave Bomb","Focus Pill","Heavy Arrows","Chicken","Vampire Fang")
 if reward_item_name = "Bomb Arrows" {reward_items = round(10+random(15))}

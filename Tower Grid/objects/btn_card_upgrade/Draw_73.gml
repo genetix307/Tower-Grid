@@ -10,6 +10,6 @@ draw_text_color(x-38,y-20,myName,c_white,c_white,c_silver,c_silver,1)
 
 
 draw_set_font(font_stats)
-draw_text(x-58,y+2,"Merge x4 Cards")
+draw_text(x-48,y+5,"Merge x4 Cards")
 //draw_sprite(spr_show_gem,0,x+29,y+13)
 //draw_text(x+43,y+2,string(upgradeCost))

@@ -16,6 +16,7 @@
     {"name":"inst_2E0BCC2B","path":"rooms/rm_maingame/rm_maingame.yy",},
     {"name":"inst_736A8A5","path":"rooms/rm_maingame/rm_maingame.yy",},
     {"name":"inst_160E671E","path":"rooms/rm_maingame/rm_maingame.yy",},
+    {"name":"inst_2BE0E003","path":"rooms/rm_maingame/rm_maingame.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -30,8 +31,14 @@
         {"$GMRInstance":"","%Name":"inst_2E0BCC2B","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E0BCC2B","objectId":{"name":"turret_base","path":"objects/turret_base/turret_base.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":188.0,"y":840.0,},
         {"$GMRInstance":"","%Name":"inst_736A8A5","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_736A8A5","objectId":{"name":"turret_base","path":"objects/turret_base/turret_base.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":300.0,"y":840.0,},
         {"$GMRInstance":"","%Name":"inst_160E671E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_160E671E","objectId":{"name":"turret_base","path":"objects/turret_base/turret_base.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":244.0,"y":776.0,},
+        {"$GMRInstance":"","%Name":"inst_2BE0E003","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2BE0E003","objectId":{"name":"mineshaft","path":"objects/mineshaft/mineshaft.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.160225,"scaleX":0.7368958,"scaleY":0.73689574,"x":469.31146,"y":757.83356,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_floor_grass","path":"sprites/spr_floor_grass/spr_floor_grass.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":"_filter_vignette","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
+        {"name":"g_VignetteEdges","type":0,"value":"0.9",},
+        {"name":"g_VignetteEdges","type":0,"value":"2",},
+        {"name":"g_VignetteSharpness","type":0,"value":"2",},
+        {"name":"g_VignetteTexture","type":2,"value":"_filter_vignette_texture",},
+      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_floor_grass","path":"sprites/spr_floor_grass/spr_floor_grass.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"rm_maingame",
   "parent":{

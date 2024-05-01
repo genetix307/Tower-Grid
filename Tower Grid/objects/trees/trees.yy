@@ -9,6 +9,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"default_enemy","path":"objects/default_enemy/default_enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"wpn_barrel","path":"objects/wpn_barrel/wpn_barrel.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"wpn_splash_explosion","path":"objects/wpn_splash_explosion/wpn_splash_explosion.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"mineshaft","path":"objects/mineshaft/mineshaft.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"trees",

@@ -8,6 +8,12 @@ building=1
 audio_play_sound(sfx_build,1,false)
 instance_create_depth(x-16,y-16,depth,effect_hammer)
 challenge_builder()
+
+//Building Grant Card
+   if store.card_slot_1 = 9 or store.card_slot_2 = 9 or store.card_slot_3 = 9 or store.card_slot_4 =9
+	{
+		store.gold+=store.card_lvl_buildinggrant*25
+	}
 }
 
 

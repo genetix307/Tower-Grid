@@ -12,6 +12,7 @@ towers_built=1
 arrow_fluctuate=6
 arrow_fluctuate_dir=0
 last_tower_sold=""
+mastery_bonus=0
 alarm[0]=240 //Show tutorial
 
 repeat (70+random(50)) instance_create_depth(x,y,depth,trees)
@@ -32,12 +33,27 @@ layer_background_change(bg_id,choose(spr_floor_grass,spr_floor_grass,spr_floor_g
 //Status Boosts
 //template_boost=0
 
-//CARDS
-//Template Card
-//if store.card_slot_1 = 1 or store.card_slot_2 = 1 or store.card_slot_3 = 1 or store.card_slot_4 = 1
-//	{
-//		if store.current_stage=1 {store.gold +=store.card_lvl_inheritance*5+25}
-//	}
+//Taxation Card
+if store.card_slot_1 = 2 or store.card_slot_2 = 2 or store.card_slot_3 = 2 or store.card_slot_4 = 2
+	{
+		if store.current_stage=1 {store.gold +=(store.card_lvl_taxation*15)+10}
+	}
+//Armored Cores Card
+if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or store.card_slot_4 = 3
+	{
+		store.maxhp+=store.card_lvl_armoredcores*30
+		store.hp=store.maxhp
+	}
+//Repair Drone Card
+   if store.card_slot_1 = 4 or store.card_slot_2 = 4 or store.card_slot_3 = 4 or store.card_slot_4 = 4
+	{
+		instance_create_depth(240,700,depth,effect_drone)
+	}
+//Mastery Card
+   if store.card_slot_1 = 7 or store.card_slot_2 = 7 or store.card_slot_3 = 7 or store.card_slot_4 = 7
+	{
+		mastery_bonus=store.card_lvl_mastery
+	}
 
 //PERKS
 //Template

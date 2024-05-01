@@ -12,7 +12,7 @@ x=random_range(100,room_width-100)
 y=random(room_height-100)
 }
 
-depth=-y-30
+depth=-y-38
 
 alarm[0]=3
 alarm[1]=20

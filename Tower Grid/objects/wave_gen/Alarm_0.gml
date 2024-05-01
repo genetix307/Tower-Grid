@@ -33,7 +33,6 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    spawn_boss=0
    show_wave=3
    alarm[0]=60/store.game_speed
-  
    
    //Wave Gems
    store.gold+=store.perm_wavegold+(5*store.perk_lvl_wavegold)
@@ -56,6 +55,26 @@ if spawn_count<=0 and instance_number(default_enemy)<=0
    if 4>random(10) {instance_create_depth(-1000,y,depth,effect_cloud_shadow)}
    //Harvester XP gain
    if instance_number(turret_harvester)>0 {with turret_harvester alarm[1]=3}
+   //Taxation Card
+   if store.card_slot_1 = 2 or store.card_slot_2 = 2 or store.card_slot_3 = 2 or store.card_slot_4 = 2
+	{
+		store.gold +=store.card_lvl_taxation*5
+	}
+	//Repair Drone Card
+   if store.card_slot_1 = 4 or store.card_slot_2 = 4 or store.card_slot_3 = 4 or store.card_slot_4 = 4
+	{
+		store.hp+=store.card_lvl_repairdrone
+	}
+	//Mineshaft Card
+   if store.card_slot_1 = 5 or store.card_slot_2 = 5 or store.card_slot_3 = 5 or store.card_slot_4 = 5
+	{
+		with mineshaft dig_gems+=1
+	}
+	//Airstrike Card
+   if store.card_slot_1 = 10 or store.card_slot_2 = 10 or store.card_slot_3 = 10 or store.card_slot_4 = 10
+	{
+		if (store.card_lvl_airstrike+4)>random(100) {instance_create_depth(240,3600,-10000,airstrike_jet)}
+	}
 }
 }
 

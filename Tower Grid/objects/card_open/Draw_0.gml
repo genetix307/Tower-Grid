@@ -1,4 +1,4 @@
-draw_btn_color()
+//draw_btn_color()
 draw_self()
 
 if opened = 0 {
