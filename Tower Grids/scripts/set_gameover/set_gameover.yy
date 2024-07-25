@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"set_gameover",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"set_gameover",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

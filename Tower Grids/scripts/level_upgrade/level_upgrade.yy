@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"level_upgrade",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"level_upgrade",
+  "parent":{
+    "name":"Perks",
+    "path":"folders/Scripts/Perks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

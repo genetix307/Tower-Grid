@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"draw_shadow_flying",
   "isCompatibility":false,
   "isDnD":false,

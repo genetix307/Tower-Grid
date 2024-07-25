@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"challenge_headshotking",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"challenge_headshotking",
+  "parent":{
+    "name":"Challenges",
+    "path":"folders/Scripts/Challenges.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

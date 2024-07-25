@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"set_bestiary",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"set_bestiary",
+  "parent":{
+    "name":"Temp",
+    "path":"folders/Scripts/Temp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

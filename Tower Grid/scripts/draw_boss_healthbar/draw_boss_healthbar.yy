@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"draw_boss_healthbar",
   "isCompatibility":false,
   "isDnD":false,

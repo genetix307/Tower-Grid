@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ad_load_interstitial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ad_load_interstitial",
+  "parent":{
+    "name":"ads",
+    "path":"folders/Scripts/ads.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

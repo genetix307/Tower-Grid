@@ -35,6 +35,7 @@ store.perk_lvl_capitalgains=0
 store.perk_lvl_upholder=0
 store.perk_lvl_evilcreed=0
 store.perk_lvl_recharge=0
+store.perk_lvl_bossslayer=0
 
 //Misc
 //store.current_tab=0

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"challenge_mechanic",
   "isCompatibility":false,
   "isDnD":false,

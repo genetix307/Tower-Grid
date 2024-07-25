@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"tower_upgrade_perm",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tower_upgrade_perm",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

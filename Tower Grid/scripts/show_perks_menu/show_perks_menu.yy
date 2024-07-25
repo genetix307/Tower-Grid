@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"show_perks_menu",
   "isCompatibility":false,
   "isDnD":false,

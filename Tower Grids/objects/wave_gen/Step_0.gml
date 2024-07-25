@@ -1,0 +1,1 @@
+if show_wave>0 {show_wave-=.005}

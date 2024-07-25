@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"challenge_survivor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"challenge_survivor",
+  "parent":{
+    "name":"Challenges",
+    "path":"folders/Scripts/Challenges.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

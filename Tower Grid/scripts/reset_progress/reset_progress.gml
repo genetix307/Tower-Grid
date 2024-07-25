@@ -117,7 +117,7 @@ store.hammer_attack_damage=10
 store.hammer_attack_range=300
 store.hammer_reload_time=100
 store.hammer_critical_chance=2
-store.hammer_knockback=150
+store.hammer_knockback=20
 store.hammer_ability="None"
 store.hammer_lvl=1
 store.absorber_attack_damage=6
@@ -210,4 +210,5 @@ store.code_fivestars=0
 store.code_boom=0
 store.code_runknightrun=0
 store.code_warzone=0
+store.code_hero=0
 }

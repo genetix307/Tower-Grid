@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"open_privacy_policy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"open_privacy_policy",
+  "parent":{
+    "name":"ads",
+    "path":"folders/Scripts/ads.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

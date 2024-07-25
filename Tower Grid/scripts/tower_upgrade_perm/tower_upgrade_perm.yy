@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"tower_upgrade_perm",
   "isCompatibility":false,
   "isDnD":false,

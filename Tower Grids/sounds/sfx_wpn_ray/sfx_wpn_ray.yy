@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_wpn_ray",
+  "audioGroupId":{
+    "name":"audio_sfx",
+    "path":"audiogroups/audio_sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.522449,
+  "name":"sfx_wpn_ray",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_wpn_ray.mp3",
+  "type":0,
+  "volume":0.8,
+}

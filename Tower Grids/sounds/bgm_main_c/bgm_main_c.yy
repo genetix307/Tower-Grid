@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgm_main_c",
+  "audioGroupId":{
+    "name":"audio_bgm",
+    "path":"audiogroups/audio_bgm",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":222.19756,
+  "name":"bgm_main_c",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Sounds/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_main_c.mp3",
+  "type":0,
+  "volume":0.95,
+}

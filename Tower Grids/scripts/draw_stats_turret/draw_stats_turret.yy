@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_stats_turret",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_stats_turret",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Draw.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

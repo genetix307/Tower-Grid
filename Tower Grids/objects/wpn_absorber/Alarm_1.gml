@@ -1,0 +1,1 @@
+instance_create_depth(x,y,depth-10,effect_smoke_tower_shot)

@@ -207,6 +207,7 @@ store.code_fivestars=ini_read_real( "save1", "code_fivestars",store.code_fivesta
 store.code_boom=ini_read_real( "save1", "code_boom",store.code_boom);
 store.code_warzone=ini_read_real( "save1", "code_warzone",store.code_warzone);
 store.code_runknightrun=ini_read_real( "save1", "code_runknightrun",store.code_runknightrun);
+store.code_hero=ini_read_real( "save1", "code_hero",store.code_hero);
 //Ingame Stats
 store.gold=ini_read_real( "save1", "gold",store.gold);
 store.current_stage=ini_read_real( "save1", "current_stage",store.current_stage);

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_shadow_flying",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_shadow_flying",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Draw.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
