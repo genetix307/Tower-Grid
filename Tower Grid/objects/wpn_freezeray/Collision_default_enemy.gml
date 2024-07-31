@@ -1,6 +1,9 @@
 tmpCrit=1
 if critical_chance>random(100) {tmpCrit=store.critical_multiplier instance_create_depth(x,y,depth-10,effect_criticalhit)}
 
+//Boss Slayer perk
+boss_slayer()
+
 if other.shield<=0 {
 other.hp-=attack_damage*tmpCrit
 if other.boss=0 {other.status_knockback=knockback other.status_frozen=150}

@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"Mediations","order":1,"path":"folders/AdMob/Extensions/Mediations.yy",},
+    {"name":"GooglePlayServices","order":2,"path":"folders/GooglePlayServices.yy",},
     {"name":"cards","order":1,"path":"folders/Objects/Menu/cards.yy",},
     {"name":"MenuTabs","order":3,"path":"folders/Objects/Menu/MenuTabs.yy",},
     {"name":"Bestiary","order":10,"path":"folders/Objects/Menu/Misc/Bestiary.yy",},
@@ -7,11 +9,16 @@
     {"name":"Settings","order":1,"path":"folders/Sprites/Menu/Settings.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"AdMobIronSource","order":1,"path":"extensions/AdMobIronSource/AdMobIronSource.yy",},
+    {"name":"AdMobMeta","order":2,"path":"extensions/AdMobMeta/AdMobMeta.yy",},
+    {"name":"AdMobPangle","order":3,"path":"extensions/AdMobPangle/AdMobPangle.yy",},
+    {"name":"AdMobUnityAds","order":4,"path":"extensions/AdMobUnityAds/AdMobUnityAds.yy",},
     {"name":"font_buttons","order":2,"path":"fonts/font_buttons/font_buttons.yy",},
     {"name":"font_large_hud","order":1,"path":"fonts/font_large_hud/font_large_hud.yy",},
     {"name":"font_med_hud","order":3,"path":"fonts/font_med_hud/font_med_hud.yy",},
     {"name":"font_med_menu","order":4,"path":"fonts/font_med_menu/font_med_menu.yy",},
     {"name":"font_stats_tiny","order":5,"path":"fonts/font_stats_tiny/font_stats_tiny.yy",},
+    {"name":"Note1","order":1,"path":"notes/Note1/Note1.yy",},
     {"name":"airstrike_jet","order":7,"path":"objects/airstrike_jet/airstrike_jet.yy",},
     {"name":"bird","order":4,"path":"objects/bird/bird.yy",},
     {"name":"btn_abandon_run","order":1,"path":"objects/btn_abandon_run/btn_abandon_run.yy",},
@@ -174,6 +181,7 @@
     {"name":"ad_show_interstitial","order":1,"path":"scripts/ad_show_interstitial/ad_show_interstitial.yy",},
     {"name":"ads_init_interstitial","order":3,"path":"scripts/ads_init_interstitial/ads_init_interstitial.yy",},
     {"name":"ads_init","order":2,"path":"scripts/ads_init/ads_init.yy",},
+    {"name":"boss_slayer","order":5,"path":"scripts/boss_slayer/boss_slayer.yy",},
     {"name":"calc_number","order":6,"path":"scripts/calc_number/calc_number.yy",},
     {"name":"challenge_brickroad","order":2,"path":"scripts/challenge_brickroad/challenge_brickroad.yy",},
     {"name":"challenge_builder","order":4,"path":"scripts/challenge_builder/challenge_builder.yy",},

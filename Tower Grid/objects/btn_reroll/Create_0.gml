@@ -1,5 +1,5 @@
 // Genetix Studio
-depth = hud.depth-10000
+depth = hud.depth-10
 image_speed = 0
 
 //myName = "Reroll"

@@ -1,3 +1,8 @@
+
+//Boss Slayer perk
+boss_slayer()
+
+
 if 3>random(10) and other.flying=0 {
 other.hp-=attack_damage
 image_alpha-=.05

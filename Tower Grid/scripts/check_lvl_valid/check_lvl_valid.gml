@@ -52,6 +52,9 @@ if store.perk_lvl_evilcreed>=3 or store.best_stage<200 {return false}
 if slot=17 {
 if store.perk_lvl_recharge>=5 or store.best_stage<20 {return false}
 }
+if slot=18 {
+if store.perk_lvl_bossslayer>=100 {return false}
+}
 
 return true
 }

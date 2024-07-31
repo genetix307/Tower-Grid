@@ -1,4 +1,4 @@
-depth=-10000
+depth=-9000
 save_game()
 
 game_paused=0

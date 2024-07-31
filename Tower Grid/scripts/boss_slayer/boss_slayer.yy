@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"boss_slayer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"boss_slayer",
+  "parent":{
+    "name":"Perks",
+    "path":"folders/Scripts/Perks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

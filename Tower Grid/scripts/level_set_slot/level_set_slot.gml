@@ -37,7 +37,7 @@ if store.perk_lvl_sharpshooter=0 {isNew=1}
 }
 if my_id=6 {
 myHeader="Plunder"
-myInfo=string((store.perk_lvl_plunder*2)+4)+"% chance enemies drop Gem"
+myInfo=string((store.perk_lvl_plunder*2)+5)+"% chance enemies drop Gem"
 myLevel="Level "+string(store.perk_lvl_plunder)+">"+string(store.perk_lvl_plunder+1)
 if store.perk_lvl_plunder=0 {isNew=1}
 }
@@ -107,6 +107,12 @@ myHeader="Recharge"
 myInfo="Heal +"+string((store.perk_lvl_recharge+1)*2)+" HP each\nwave if undamaged"
 myLevel="Level "+string(store.perk_lvl_recharge)+">"+string(store.perk_lvl_recharge+1)
 if store.perk_lvl_recharge=0 {isNew=1}
+}
+if my_id=18 {
+myHeader="Boss Slayer"
+myInfo="Towers deal +"+string((store.perk_lvl_bossslayer+1)*5)+"% \ndamage to Bosses"
+myLevel="Level "+string(store.perk_lvl_bossslayer)+">"+string(store.perk_lvl_bossslayer+1)
+if store.perk_lvl_bossslayer=0 {isNew=1}
 }
 
 }
